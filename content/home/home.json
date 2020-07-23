@@ -2,18 +2,21 @@
   "title": "Home",
   "content": "intro.md",
   "gallery": [{
-    "title": "React Context",
+    "title": "React Context Click" ,
     "copy": "For global styles.",
+    "path": "/about",
     "image": "../images/gallery/react-context.jpg"
   },
   {
     "title": "Page Transitions",
     "copy": "Component-based for easy usage.",
+    "path": "/blog",
     "image": "../images/gallery/page-transitions.jpg"
   },
   {
     "title": "Intersection Observer",
     "copy": "Including a polyfill for Safari.",
+    "path": "/blog",
     "image": "../images/gallery/intersection-observer.jpg"
   }]
 }

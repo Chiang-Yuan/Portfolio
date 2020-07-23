@@ -9,7 +9,10 @@ const Nav = () => (
         <Link to="/about">About</Link>
       </li>
       <li>
-        <a href="https://github.com/fabe/gatsby-universal">GitHub</a>
+        <Link to="/blog">Blog</Link>
+      </li>
+      <li>
+        <a href="https://https://github.com/Chiang-Yuan">GitHub</a>
       </li>
     </ul>
   </Container>

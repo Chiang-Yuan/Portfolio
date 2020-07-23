@@ -9,7 +9,6 @@ module.exports = {
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-offline`,
     `gatsby-transformer-json`,
-    `gatsby-transformer-remark`,
     `gatsby-plugin-eslint`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -18,7 +17,23 @@ module.exports = {
         path: `${__dirname}/content`,
       },
     },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        excerpt_separator: `<!-- endexcerpt -->`
+      }
+    },
     `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `gatsby-starter-default`,
+        short_name: `starter`,
+        start_url: `/`,
+        display: `minimal-ui`,
+        icon: `src/images/atom.png`,
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-webpack-size`,
     {
