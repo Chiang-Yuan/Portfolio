@@ -15,7 +15,14 @@ module.exports = {
       options: {
         name: `content`,
         path: `${__dirname}/content`,
-      },
+      }
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `content`,
+        path: `${__dirname}/content`,
+      }
     },
     {
       resolve: `gatsby-transformer-remark`,
@@ -27,8 +34,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Yuan Chiang`,
+        short_name: `YC`,
         start_url: `/`,
         display: `minimal-ui`,
         icon: `src/images/atom.png`,
