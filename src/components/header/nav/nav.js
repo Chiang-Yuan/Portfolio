@@ -12,7 +12,7 @@ const Nav = () => (
         <Link to="/blog">Blog</Link>
       </li>
       <li>
-        <a href="github.com/Chiang-Yuan">GitHub</a>
+        <a href="https://github.com/Chiang-Yuan">GitHub</a>
       </li>
     </ul>
   </Container>
