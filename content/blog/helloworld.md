@@ -3,7 +3,6 @@ title: Perfecting the Art of Perfection
 date: "2016-09-01T23:46:37.121Z"
 template: "post-templates"
 draft: false
-slug: "/posts/hello-world"
 category: "Design Inspiration"
 tags:
   - "Handwriting"
