@@ -35,7 +35,7 @@ module.exports = {
       options: {
         plugins: [`gatsby-remark-copy-linked-files`],
         options: {
-            destinationDir: f => `${f.name}`,
+            destinationDir: f => `/files/${f.name}`,
             ignoreFileExtensions: [`jpg`, `jpeg`, `png`, `gif`, `bmp`, `tiff`],
           },
       },
