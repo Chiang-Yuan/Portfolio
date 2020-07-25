@@ -39,7 +39,7 @@ export const NavItem = styled(Link)`
     content: ".";
     color: transparent;
     background: goldenrod;
-    height: 1px;
+    height: 0.5px;
     transition: all 0.4s ease-in;
   }
 
@@ -76,7 +76,7 @@ export const NavLink = styled.div`
     content: ".";
     color: transparent;
     background: goldenrod;
-    height: 1px;
+    height: 0.5px;
     transition: all 0.4s ease-in;
   }
 
@@ -96,14 +96,15 @@ export const NavLink = styled.div`
 
 export const Navigation = styled.nav`
   /* height: 5vh; */
+  float: right;
   display: flex;
   background-color: #fff;
-  position: relative;
+  /* position: relative; */
   justify-content: space-between;
   text-transform: uppercase;
   /* border-bottom: 2px solid #33333320; */
   margin: auto 0;
-  padding: 0 5vw;
+  /* padding: 0 0; */
   z-index: 2;
   /* align-self: center; */
 
@@ -148,12 +149,12 @@ export const Navbox = styled.div`
 `
 
 export const Hamburger = styled.div`
+  float: right;
   background-color: #111;
   width: 30px;
   height: 3px;
   transition: all .3s linear;
-  align-self: center;
-  position: relative;
+  /* align-self: center; */
   transform: ${props => (props.open ? "rotate(-45deg)" : "inherit")};
 
   ::before,
