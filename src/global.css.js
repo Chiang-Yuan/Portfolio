@@ -23,10 +23,24 @@ export default createGlobalStyle`
   //   vertical-align: baseline;
   // }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1 {
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
     line-height: 2.0;
+    font-size: 4rem;
   }
+
+  h2 {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    line-height: 2.0;
+    font-size: 3rem;
+  }
+
+  h3, h3, h4, h5, h6 {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    line-height: 2.0;
+    font-size: 2rem;
+  }
+
 
   /* HTML5 display-role reset for older browsers */
   article, aside, details, figcaption, figure,

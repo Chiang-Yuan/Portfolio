@@ -8,11 +8,11 @@ import Head from 'components/head';
 
 const Publication = ({ data }) => (
   <Layout>
-    <Head pageTitle={data.aboutJson.title} />
+    <Head pageTitle={data.publicationJson.title} />
     <Box>
       <div
         dangerouslySetInnerHTML={{
-          __html: data.aboutJson.content.childMarkdownRemark.html,
+          __html: data.publicationJson.content.childMarkdownRemark.html,
         }}
       />
     </Box>
@@ -26,8 +26,8 @@ Publication.propTypes = {
 export default Publication;
 
 export const query = graphql`
-  query PubQuery {
-    aboutJson {
+  query PublicationQuery {
+    publicationJson {
       title
       content {
         childMarkdownRemark {
