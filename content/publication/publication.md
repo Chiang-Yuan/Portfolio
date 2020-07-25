@@ -1,5 +1,5 @@
 
-## Publication
+# Publication
 
 ### In Print
 
@@ -11,10 +11,11 @@
 
 * **Y. Chiang**, Cheng-Che Tung, Xiang-Di Lin, Po-Yu Chen, Chuin-Shan Chen, Shu-Wei Chang. (2020) "Geometrically toughening mechanism of cellular
 composites inspired by Fibonacci lattice in
-***Liquidambar formosana***." Composite Structures.
+*Liquidambar formosana*." Composite Structures.
 
 * K.C. Yeh, **Y. Chiang**, S.W. Chang. (2020) "Full atomistic simulation of cross-linked gold nanoparticle assemblies." Multiscale Science and Engineering.
 
+# Presentation
 
 
 

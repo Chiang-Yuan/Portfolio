@@ -19,12 +19,13 @@ export function BlogLayout({ data, children }) {
       <BlogStyle />
       <Head />
       <Header title={data.site.siteMetadata.siteTitle} />
-      <div style={{ margin: `auto auto`, maxWidth: 1080, padding: `0 0` }}>
-        {children}
-        <MathJax.Provider>
-          <MathJax.Node formula={``} />
-        </MathJax.Provider>
-      </div>
+      <MathJax.Provider>
+        <MathJax.Node formula={``} />
+        <div style={{ margin: `auto auto`, maxWidth: 1080, padding: `0 0` }}>
+          {children}
+        </div>
+        <MathJax.Node formula={``} />
+      </MathJax.Provider>
     </div>
   )
 }
