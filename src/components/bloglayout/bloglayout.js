@@ -9,7 +9,7 @@ import { Global } from "@emotion/core"
 
 import Head from 'components/head';
 import Header from 'components/header';
-import MarkdownRender from 'components/markdownrender'
+// import MarkdownRender from 'components/markdownrender'
 
 import BlogStyle from './bloglayout.css.js';
 
@@ -20,11 +20,11 @@ export function BlogLayout({ data, children }) {
       <Head />
       <Header title={data.site.siteMetadata.siteTitle} />
       <MathJax.Provider>
-        <MathJax.Node formula={``} />
         <div style={{ margin: `auto auto`, maxWidth: 1080, padding: `0 0` }}>
+          <MathJax.Node formula={``} />
           {children}
+          <MathJax.Node formula={``} />
         </div>
-        <MathJax.Node formula={``} />
       </MathJax.Provider>
     </div>
   )

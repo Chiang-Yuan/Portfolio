@@ -53,6 +53,7 @@
     "react-helmet": "^5.2.0",
     "react-markdown": "^4.3.1",
     "react-mathjax": "^1.0.1",
+    "react-mathjax2": "0.0.2",
     "react-pose": "^4.0.5",
     "react-typography": "^0.16.19",
     "rehype-katex": "^3.0.0",

@@ -3,13 +3,19 @@ import { graphql } from "gatsby"
 import Box from '../components/box';
 import BlogLayout  from "../components/bloglayout"
 
+import MathJax from 'react-mathjax';
+
 export default function BlogPost({ data }) {
   const post = data.markdownRemark
   return (
     <BlogLayout>
       <Box>
         <h1>{post.frontmatter.title}</h1>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        <MathJax.Provider>
+          <MathJax.Node formula={``} />
+            <div dangerouslySetInnerHTML={{ __html: post.html }} />
+          <MathJax.Node formula={``} />
+        </MathJax.Provider>
       </Box>
     </BlogLayout>
   )
