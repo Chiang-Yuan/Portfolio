@@ -7,11 +7,11 @@
 
 ### Submitted
 
-* **Y. Chiang**, S.W. Chang. (2020) "Bridging the gap between NMR measured mean silicate chain length and nano-scale silicate polymorphism of calcium silicate hydrates." Cement and Concrete Research.
+* **Y. Chiang**, S.W. Chang. (2020) "Bridging the gap between NMR measured mean silicate chain length and nano-scale silicate polymorphism of calcium silicate hydrates." Cement and Concrete Research. [[preprint](CSH_preprint_CCR.pdf)]
 
 * **Y. Chiang**, Cheng-Che Tung, Xiang-Di Lin, Po-Yu Chen, Chuin-Shan Chen, Shu-Wei Chang. (2020) "Geometrically toughening mechanism of cellular
 composites inspired by Fibonacci lattice in
-*Liquidambar formosana*." Composite Structures.
+*Liquidambar formosana*." Composite Structures. [[preprint](BioMGI_preprint_CS.pdf)]
 
 * K.C. Yeh, **Y. Chiang**, S.W. Chang. (2020) "Full atomistic simulation of cross-linked gold nanoparticle assemblies." Multiscale Science and Engineering.
 
