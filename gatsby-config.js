@@ -34,6 +34,10 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [`gatsby-remark-copy-linked-files`],
+        options: {
+            destinationDir: f => `${f.name}`,
+            ignoreFileExtensions: [`jpg`, `jpeg`, `png`, `gif`, `bmp`, `tiff`],
+          },
       },
     },
     {

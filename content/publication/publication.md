@@ -7,7 +7,7 @@
 
 ### Submitted
 
-* **Y. Chiang**, S.W. Chang. (2020) "Bridging the gap between NMR measured mean silicate chain length and nano-scale silicate polymorphism of calcium silicate hydrates." Cement and Concrete Research. [[preprint](CSH_preprint_CCR.pdf)]
+* **Y. Chiang**, S.W. Chang. (2020) "Bridging the gap between NMR measured mean silicate chain length and nano-scale silicate polymorphism of calcium silicate hydrates." Cement and Concrete Research. [[preprint](https://github.com/Chiang-Yuan/Portfolio/blob/master/content/publication/CSH_preprint_CCR.pdf)]
 
 * **Y. Chiang**, Cheng-Che Tung, Xiang-Di Lin, Po-Yu Chen, Chuin-Shan Chen, Shu-Wei Chang. (2020) "Geometrically toughening mechanism of cellular
 composites inspired by Fibonacci lattice in
