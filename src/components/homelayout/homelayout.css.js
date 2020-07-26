@@ -1,7 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
 import { accent } from 'constants/theme';
 
-export default createGlobalStyle`
+const HomeStyle = createGlobalStyle`
   // html, body, div, span, applet, object, iframe,
   // h1, h2, h3, h4, h5, h6, p, blockquote, pre,
   // a, abbr, acronym, address, big, cite, code,
@@ -56,6 +56,8 @@ export default createGlobalStyle`
 
   html {
     font-size: 62.5%;
+    background-color: #10202B;
+    color: #DEE2E6;
   }
 
   body, h1, h2, h3, h4, h5, h6 {
@@ -134,3 +136,5 @@ export default createGlobalStyle`
     margin-bottom: 2rem;
   }
 `;
+
+export default HomeLayout;
