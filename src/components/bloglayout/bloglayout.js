@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import MathJax from 'react-mathjax';
 
 import { StaticQuery, graphql } from 'gatsby';
-import { Global } from "@emotion/core"
+// import { Global } from "@emotion/core"
 
 import Head from 'components/head';
 import Header from 'components/header';
