@@ -124,4 +124,4 @@ const BlogStyle =  createGlobalStyle`
   }
 `;
 
-export default BlogLayout;
+export default BlogStyle;

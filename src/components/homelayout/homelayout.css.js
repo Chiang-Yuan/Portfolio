@@ -137,4 +137,4 @@ const HomeStyle = createGlobalStyle`
   }
 `;
 
-export default HomeLayout;
+export default HomeStyle;
