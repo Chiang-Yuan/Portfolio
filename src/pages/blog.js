@@ -38,7 +38,7 @@ export default function Blog({ data }) {
                 text-decoration: none;
                 color: inherit;
               `}
-              activeStyle={{ color: "red" }}
+                activeStyle={{ color: "red" }}
             >
               <h3
                 css={css`
@@ -54,10 +54,10 @@ export default function Blog({ data }) {
                   — {node.frontmatter.date}
                 </span>
               </h3>
-              {
-                // <p>{node.excerpt}</p>
-              }
-            </Link>
+              </Link>
+            {
+              <p>{node.excerpt}</p>
+            }
           </div>
         ))}
       </Box>

@@ -29,31 +29,7 @@ composites inspired by Fibonacci lattice in
 * **Y. Chiang**, S.W. Chang. (2019) "Influences of combinational distributions of various Ca/Si ratios and defects on the mechanical properties of calcium silicate hydrates." TechConnect World, Boston, USA.
 * **Y. Chiang**, S.W. Chang. (2019) "Influences of combinational distributions of various Ca/Si ratios and defects on the mechanical properties of calcium silicate hydrates." EMI2019, Pasadena, USA
 
+### Posters
 
-<!-- Submitted
-
-
-Talks
-
-\begin{enumerate}
-\item \textbf{Y. Chiang}, X.D. Lin, S.W. Chang. (2019) "Nanoscale Silicate Polymorphism in C-S-H and Bio-inspired 2D Composite Materials." MIT The Laboratory for Atomistic and Molecular Mechanics (LAMM), Boston, USA.
-\item \textbf{Y. Chiang}, S.W. Chang. (2019) "Nanoscale Silicate Polymorphism in C-S-H and In Silico Nanoindentation." APCOM, Taipei, Taiwan.
-\item \textbf{Y. Chiang}, S.W. Chang. (2019) "Influences of combinational distributions of various Ca/Si ratios and defects on the mechanical properties of calcium silicate hydrates." TechConnect World, Boston, USA.
-\item \textbf{Y. Chiang}, S.W. Chang. (2019) "Influences of combinational distributions of various Ca/Si ratios and defects on the mechanical properties of calcium silicate hydrates." EMI2019, Pasadena, USA
-\end{enumerate}
-
-
-Posters
-
-\begin{enumerate}
-\item \textbf{Y. Chiang}, S.W. Chang. (2019) "In Silico Nanoindentation of Calcium-Silicate-Hydrates from NMR-informed Atomistic Modeling." Material Research Society Fall Meeting, Boston, USA.
-\item D. Li, K.C Yeh, \textbf{Y. Chiang}, S.W. Chang. (2019) "Understanding the molecular mechanism of cartilage degradation and cation channel activity." Material Research Society Fall Meeting, Boston, USA.
-\end{enumerate}
-
-
-
-# H1
-
-## H2
-
-### H3 -->
+* **Y. Chiang**, S.W. Chang. (2019) "In Silico Nanoindentation of Calcium-Silicate-Hydrates from NMR-informed Atomistic Modeling." Material Research Society Fall Meeting, Boston, USA.
+* D. Li, K.C Yeh, **Y. Chiang**, S.W. Chang. (2019) "Understanding the molecular mechanism of cartilage degradation and cation channel activity." Material Research Society Fall Meeting, Boston, USA.

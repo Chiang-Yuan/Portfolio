@@ -22,7 +22,7 @@ export const Container = styled.nav`
 
 export const NavItem = styled(Link)`
   text-decoration: none;
-  color: #111;
+  color: #DFE8ED;
   display: inline-block;
   white-space: nowrap;
   margin: 0 1vw;
@@ -47,6 +47,7 @@ export const NavItem = styled(Link)`
     color: goldenrod;
     ::after {
       width: 100%;
+
     }
   }
 
@@ -59,7 +60,7 @@ export const NavItem = styled(Link)`
 
 export const NavLink = styled.div`
   text-decoration: none;
-  color: #111;
+  color: #DFE8ED;
   display: inline-block;
   white-space: nowrap;
   margin: 0 1vw;
@@ -81,7 +82,7 @@ export const NavLink = styled.div`
   }
 
   :hover {
-    color: goldenrod;
+    color: inherit;
     ::after {
       width: 100%;
     }
@@ -98,14 +99,17 @@ export const Navigation = styled.nav`
   /* height: 5vh; */
   float: right;
   display: flex;
-  background-color: #fff;
+  /* background-color: transparent; */
+  background-color: #407EAB;
+  /* background-color: #fff; */
   /* position: relative; */
   justify-content: space-between;
   text-transform: uppercase;
   /* border-bottom: 2px solid #33333320; */
   margin: auto 0;
-  /* padding: 0 0; */
+  padding: 0 0;
   z-index: 2;
+  line-height: 1;
   /* align-self: center; */
 
   @media (max-width: 960px) {
@@ -150,7 +154,7 @@ export const Navbox = styled.div`
 
 export const Hamburger = styled.div`
   float: right;
-  background-color: #111;
+  background-color: #DFE8ED;
   width: 30px;
   height: 3px;
   transition: all .3s linear;
@@ -161,7 +165,7 @@ export const Hamburger = styled.div`
   ::after {
     width: 30px;
     height: 3px;
-    background-color: #111;
+    background-color: #DFE8ED;
     content: "";
     position: absolute;
     transition: all 0.3s linear;

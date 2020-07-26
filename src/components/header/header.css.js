@@ -5,17 +5,23 @@ export const Container = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 3rem;
+  padding: 2rem 4rem;
+  height: 10vh;
+  background: #407EAB;
 
   a {
-    color: #757575;
+    color: #DFE8ED;
     transition: color 0.2s ease;
     text-decoration: none;
 
     &:hover {
       color: inherit;
     }
+    
   }
+
+
+
 `;
 
 export const Title = styled.div`

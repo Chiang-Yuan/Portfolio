@@ -3,12 +3,14 @@ import Component from 'react';
 import PropTypes from 'prop-types';
 import Img from 'gatsby-image';
 import { Link } from 'gatsby';
-import { Title, Copy } from './item.css';
+import { ImgFrame, Title, Copy } from './item.css';
 
 const Item = ({ title, copy, path, image }) => (
   <figure>
     <Link to={path}>
-      <Img fluid={image ? image.childImageSharp.fluid : {}} alt={title} />
+      <ImgFrame>
+        <Img fluid={image ? image.childImageSharp.fluid : {}} alt={title} />
+      </ImgFrame>
     </Link>
     <figcaption>
       <Title>{title}</Title>

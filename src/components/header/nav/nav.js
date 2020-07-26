@@ -16,7 +16,7 @@ const Nav = () => {
       {navbarOpen ? (
         <Navbox>
           <>
-            <NavItem to="/about">About</NavItem>
+            <NavItem to="/">About</NavItem>
             <NavItem to="/project">Projects</NavItem>
             <NavItem to="/publication">Publications</NavItem>
             <NavItem to="/blog">Blog</NavItem>
@@ -26,7 +26,7 @@ const Nav = () => {
       ) : (
         <Navbox open>
           <>
-            <NavItem to="/about">About</NavItem>
+            <NavItem to="/">About</NavItem>
             <NavItem to="/project">Projects</NavItem>
             <NavItem to="/publication">Publications</NavItem>
             <NavItem to="/blog">Blog</NavItem>
