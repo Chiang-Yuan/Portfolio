@@ -1,7 +1,13 @@
 
 # Publications
 
-### In Print
+### Journal paper
+
+### Thesis
+
+* **Bachelor Thesis**: Mechanical properties and stress-strain analysis of calcium-silicate-hydrates via molecular dynamics.
+
+### Book
 
 * **Y. Chiang**. (2019) "Eclectic - Time and Urban Aesthetics. Travel Documentary in Spain." OUT Scholarship.
 

@@ -118,6 +118,7 @@ export const Navigation = styled.nav`
     left: 0;
     right: 0;
     left: 0;
+
   }
 `
 
@@ -145,7 +146,8 @@ export const Navbox = styled.div`
     width: 100%;
     justify-content: flex-start;
     /* padding-top: 10vh; */
-    background-color: #fff;
+    /* background-color: #fff; */
+    background-color: #10202B;
     transition: all 0.3s ease-in;
     top: 10vh;
     left: ${props => (props.open ? "-100%" : "0")};
