@@ -28,7 +28,7 @@ export const NavItem = styled(Link)`
   margin: 0 1vw;
   transition: all 200ms ease-in;
   position: relative;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 
   :after {
     position: absolute;
@@ -66,7 +66,7 @@ export const NavLink = styled.div`
   margin: 0 1vw;
   transition: all 200ms ease-in;
   position: relative;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 
   :after {
     position: absolute;

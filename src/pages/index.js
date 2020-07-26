@@ -2,7 +2,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 import styled from "styled-components"
 import PropTypes from 'prop-types';
-import Layout from 'components/layout';
+import HomeLayout from 'components/homelayout';
 // import Box from 'components/box';
 // import Img from "gatsby-image";
 import Gallery from 'components/gallery';
@@ -47,18 +47,9 @@ const Main = styled.div`
   }
 `
 
-
 const Index = ({ data }) => (
-  <Layout>
-    <Helmet>
-      <style>{'body, h1, h2, h3, h4, h5, h6 { background-color: #10202B; color: #DEE2E6; }'}</style>
-    </Helmet>
+  <HomeLayout>
     <Main>
-      {
-      // <h1>Welcome</h1>
-      // <div style={{ height: '10vh' }} />
-      // <Avatar fluid={data.avatar.childImageSharp.fluid} />
-      }
       <Title>Yuan Chiang</Title>
       <Avatar src={avatar} alt={avatar}/>
       <Subtitle>
@@ -75,7 +66,7 @@ const Index = ({ data }) => (
     </Main>
     <Gallery items={data.homeJson.gallery} />
     <div style={{ height: '50vh' }} />
-  </Layout>
+  </HomeLayout>
 );
 
 Index.propTypes = {
@@ -110,17 +101,18 @@ export const query = graphql`
   }
 `;
 
-const imgQuery = graphql`
-  query AvatarImgQuery {
-    avatar: file(relativePath: { eq: "./avatar.jpg" }) {
-      childImageSharp {
-        fluid(maxHeight: 200) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-  }
-`
+
+// const imgQuery = graphql`
+//   query AvatarImgQuery {
+//     avatar: file(relativePath: { eq: "./avatar.jpg" }) {
+//       childImageSharp {
+//         fluid(maxHeight: 200) {
+//           ...GatsbyImageSharpFluid
+//         }
+//       }
+//     }
+//   }
+// `
 
 
 // import IOExample from 'components/io-example';
