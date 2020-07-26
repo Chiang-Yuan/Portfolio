@@ -8,36 +8,24 @@ import IOExample from 'components/io-example';
 import Modal from 'containers/modal';
 import { graphql } from 'gatsby';
 
-const Index = ({ data }) => (
+const Project = ({ data }) => (
   <Layout>
     <Box>
-      <Title as="h2" size="large">
-        {data.homeJson.content.childMarkdownRemark.rawMarkdownBody}
-      </Title>
-      <Modal>
-        <video
-          src="https://i.imgur.com/gzFqNSW.mp4"
-          playsInline
-          loop
-          autoPlay
-          muted
-        />
-      </Modal>
+      <h1>Projects</h1>
     </Box>
-    <Gallery items={data.homeJson.gallery} />
-    <div style={{ height: '50vh' }} />
+    <Gallery items={data.projectJson.gallery} />
   </Layout>
 );
 
-Index.propTypes = {
+Project.propTypes = {
   data: PropTypes.object.isRequired,
 };
 
-export default Index;
+export default Project;
 
 export const query = graphql`
-  query HomepageQuery {
-    homeJson {
+  query ProjectpageQuery {
+    projectJson {
       title
       content {
         childMarkdownRemark {

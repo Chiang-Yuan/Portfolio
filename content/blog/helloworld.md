@@ -45,11 +45,11 @@ socialImage: "/media/image-2.jpg"
 
 Hi \\\[z = x + y\\\]
 
-`$$a^2 + b^2 = c^2$$`
+$$a^2 + b^2 = c^2$$
 
-`$$\begin{vmatrix}a & b\\
+$$\\begin{vmatrix}a & b \\\\
 c & d
-\end{vmatrix}=ad-bc$$`
+\\end{vmatrix}=ad-bc$$
 
 When `a != 0`, there are two solutions to `ax^2 + bx + c = 0` and
 they are
