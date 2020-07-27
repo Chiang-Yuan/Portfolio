@@ -79,7 +79,7 @@ const Index = ({ data }) => (
       />
     </Box>
     <Gallery items={data.homeJson.gallery} />
-    <div style={{ height: '50vh' }} />
+    <div style={{ height: '30vh' }} />
   </HomeLayout>
 );
 
