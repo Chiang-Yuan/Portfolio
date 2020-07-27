@@ -64,7 +64,7 @@ const Main = styled.div`
 const Index = ({ data }) => (
   <HomeLayout>
     <Box>
-      <Title>@CY</Title>
+      <Title>@Yuan</Title>
       <Avatar src={avatar} alt={avatar}/>
       <Subtitle>
         Amateur popping dancer who is also good at molecular dynamics (MD) and machine learning (ML). Not a nerd, absolutely.
