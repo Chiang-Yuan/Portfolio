@@ -1,5 +1,5 @@
 import React from 'react';
-import { Helmet } from 'react-helmet';
+import { css } from "@emotion/core"
 import styled from "styled-components"
 import PropTypes from 'prop-types';
 import HomeLayout from 'components/homelayout';
@@ -59,13 +59,14 @@ const Index = ({ data }) => (
       <Subtitle style={{ color: '#FFFFFF', fontWeight: 500, backgroundColor: '#AB40DF', padding: 10}}>
         Currently seeking a PhD admission in the US
       </Subtitle>
-      <div style=css{css`
+      <div css={css`
         max-width: 60rem;
-        `}>
+        `}
+      >
         dangerouslySetInnerHTML={{
           __html: data.homeJson.content.childMarkdownRemark.html,
         }}
-      />
+      </div>
     </Main>
     <Gallery items={data.homeJson.gallery} />
     <div style={{ height: '50vh' }} />
