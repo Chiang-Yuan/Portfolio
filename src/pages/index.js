@@ -59,7 +59,7 @@ const Index = ({ data }) => (
       <Subtitle style={{ color: '#FFFFFF', fontWeight: 500, backgroundColor: '#AB40DF', padding: 10}}>
         Currently seeking a PhD admission in the US
       </Subtitle>
-      <div style=css={css`
+      <div style=css{css`
         max-width: 60rem;
         `}>
         dangerouslySetInnerHTML={{
