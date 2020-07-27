@@ -48,7 +48,7 @@ const Box = styled.div`
   }
 `
 
-const Main = styled.p`
+const Main = styled.div`
   /* padding: 4rem 4rem; */
   max-width: 80rem;
   a {
