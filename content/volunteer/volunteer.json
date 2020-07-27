@@ -2,21 +2,9 @@
   "title": "Volunteer",
   "content": "volunteer.md",
   "gallery": [{
-    "title": "Multiscale Mechanics and Atomistic Modeling of Cementitious Materials" ,
-    "copy": "Molecular dynamics simulation",
-    "path": "/about",
-    "image": "csh.jpg"
-  },
-  {
-    "title": "In silico Modeling of Bio-inspired Structural Composites",
-    "copy": "Lattice spring model",
-    "path": "/blog",
-    "image": "bio.jpg"
-  },
-  {
-    "title": "Intersection Observer",
-    "copy": "Including a polyfill for Safari.",
-    "path": "/blog",
+    "title": "" ,
+    "copy": "",
+    "path": "/publication",
     "image": "../images/gallery/intersection-observer.jpg"
   }]
 }

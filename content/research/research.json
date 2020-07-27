@@ -4,19 +4,19 @@
   "gallery": [{
     "title": "Multiscale Mechanics and Atomistic Modeling of Cementitious Materials" ,
     "copy": "Molecular dynamics simulation",
-    "path": "/about",
+    "path": "/publication",
     "image": "csh.jpg"
   },
   {
     "title": "In silico Modeling of Bio-inspired Structural Composites",
     "copy": "Lattice spring model",
-    "path": "/blog",
+    "path": "/publication",
     "image": "bio.jpg"
   },
   {
     "title": "Machine-Learning Aided Structure Health Monitoring",
     "copy": "Time series reconstruction and classification using Convolutional Neural Network",
-    "path": "/blog",
+    "path": "/publication",
     "image": "shm.jpg"
   }]
 }
