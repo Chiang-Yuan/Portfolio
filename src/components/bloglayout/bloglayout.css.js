@@ -69,7 +69,7 @@ const BlogStyle =  createGlobalStyle`
   }
 
   ol, ul {
-    list-style: none;
+    // list-style: none;
   }
 
   blockquote, q {
@@ -91,6 +91,7 @@ const BlogStyle =  createGlobalStyle`
 
   a {
     color: ${accent};
+
   }
 
   pre {

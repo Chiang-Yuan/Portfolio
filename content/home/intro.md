@@ -3,6 +3,11 @@
 
 **Email** : <a href='mailto:qaqowotut@gmail.com'> qaqowotut@gamil.com </a>
 
+
+## Bio
+
+Yuan holds a B.S. degree from [National Taiwan University](https://www.ntu.edu.tw/english/index.html), [department of civil engineering](http://www.ce.ntu.edu.tw/en/). Under the supervision of [Prof. Shu-Wei Chang](https://sites.google.com/site/ntuchangsw/), Yuan's research focuses on multiscale material modeling including atomistic simulation of calcium-silicate-hydrates (C-S-H), copper-tin intermetallic compound (IMC), bio-inspired structural composites, etc.
+
 ## Education
 
 * Bachelor of Science, National Taiwan University.

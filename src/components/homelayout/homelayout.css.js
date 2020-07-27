@@ -82,7 +82,7 @@ const HomeStyle = createGlobalStyle`
   }
 
   ol, ul {
-    list-style: none;
+    // list-style: none;
   }
 
   blockquote, q {
@@ -104,6 +104,7 @@ const HomeStyle = createGlobalStyle`
 
   a {
     color: ${accent};
+    color: #407EAB;
   }
 
   pre {

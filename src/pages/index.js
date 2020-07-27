@@ -54,12 +54,14 @@ const Index = ({ data }) => (
       <Title>Yuan Chiang</Title>
       <Avatar src={avatar} alt={avatar}/>
       <Subtitle>
-        Graduate research assistant at NTU. Amateur popping dancer who is good at molecular dynamics and machine learning.
+        Graduate research assistant at NTU. Amateur popping dancer who is also good at molecular dynamics and machine learning. A perfectionist.
       </Subtitle>
       <Subtitle style={{ color: '#FFFFFF', fontWeight: 500, backgroundColor: '#AB40DF', padding: 10}}>
-        Currently seeking a PhD position in the US
+        Currently seeking a PhD admission in the US
       </Subtitle>
-      <div
+      <div style=css={css`
+        max-width: 60rem;
+        `}
         dangerouslySetInnerHTML={{
           __html: data.homeJson.content.childMarkdownRemark.html,
         }}
