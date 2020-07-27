@@ -61,7 +61,7 @@ const Index = ({ data }) => (
       </Subtitle>
       <div style=css={css`
         max-width: 60rem;
-        `}
+        `}>
         dangerouslySetInnerHTML={{
           __html: data.homeJson.content.childMarkdownRemark.html,
         }}
