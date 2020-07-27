@@ -4,7 +4,7 @@ module.exports = {
   siteTitle: `Yuan Chiang`,
   siteTitleShort: `YC`,
   siteDescription: ``,
-  siteUrl: `https://yuanchiang.com`,
+  siteUrl: `https://yuanchiang.netlify.app`,
   themeColor: `#000`,
   backgroundColor: `#fff`,
   pathPrefix: null,

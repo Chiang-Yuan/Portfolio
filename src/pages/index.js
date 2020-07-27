@@ -19,15 +19,16 @@ const Avatar = styled.img`
 `
 
 const Title = styled.h1`
-  font-weight: 650;
-  font-size: 4rem;
+  font-weight: 600;
+  font-size: 3.75rem;
   color: white;
-
+  max-width: 60rem;
+  border-bottom: 1px solid;
 `
 
 const Subtitle = styled.h2`
-  font-weight: 350;
-  font-size: 2.2rem;
+  font-weight: 300;
+  font-size: 2rem;
   color: white;
   max-width: 60rem;
   line-height: 1.2;

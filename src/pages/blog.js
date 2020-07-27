@@ -21,26 +21,24 @@ export default function Blog({ data }) {
   return (
     <Layout>
       <Box>
-        <h1
-          css={css`
-            display: inline-block;
-            border-bottom: 1px solid;
-          `}
-        >
-          Blog
-        </h1>
+        <h1>Blog</h1>
         <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id}>
+            <h3 css={css`
+              text-decoration: none;
+              `}
+            >
+              {node.frontmatter.date}
+            </h3>
             <Link
               to={node.fields.slug}
               css={css`
-                text-decoration: none;
+                /* text-decoration: none; */
                 color: inherit;
               `}
-                activeStyle={{ color: "red" }}
             >
-              <h3
+              <h2
                 css={css`
                   margin-bottom: ${rhythm(1 / 4)};
                 `}
@@ -51,9 +49,9 @@ export default function Blog({ data }) {
                     color: #555;
                   `}
                 >
-                  — {node.frontmatter.date}
+
                 </span>
-              </h3>
+              </h2>
               </Link>
             {
               <p>{node.excerpt}</p>
