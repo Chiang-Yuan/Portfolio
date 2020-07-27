@@ -70,7 +70,7 @@ const Index = ({ data }) => (
         Amateur popping dancer who is also good at molecular dynamics (MD) and machine learning (ML). Not a nerd, absolutely.
       </Subtitle>
       <Subtitle style={{ color: '#FFFFFF', fontWeight: 500, backgroundColor: '#AB40DF', padding: 10}}>
-        Currently seeking a PhD admission in the US
+        Currently seeking a PhD position in the US
       </Subtitle>
       <Main
         dangerouslySetInnerHTML={{
