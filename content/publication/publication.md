@@ -1,17 +1,11 @@
 
 # Publications
 
-### Journal paper
+### Journal Paper
 
-### Thesis
+In Print
 
-* **Bachelor Thesis**: Mechanical properties and stress-strain analysis of calcium-silicate-hydrates via molecular dynamics.
-
-### Book
-
-* **Y. Chiang**. (2019) "Eclectic - Time and Urban Aesthetics. Travel Documentary in Spain." OUT Scholarship.
-
-### Submitted
+Submitted
 
 * **Y. Chiang**, S.W. Chang. (2020) "Bridging the gap between NMR measured mean silicate chain length and nano-scale silicate polymorphism of calcium silicate hydrates." Cement and Concrete Research. [[preprint](https://github.com/Chiang-Yuan/Portfolio/raw/master/content/publication/CSH_preprint_CCR.pdf)]
 
@@ -22,8 +16,15 @@ composites inspired by Fibonacci lattice in
 
 * K.C. Yeh, **Y. Chiang**, S.W. Chang. (2020) "Full atomistic simulation of cross-linked gold nanoparticle assemblies." Multiscale Science and Engineering.
 
-### In Preparation
+In Preparation
 
+### Thesis
+
+* **Bachelor Thesis**: Mechanical properties and stress-strain analysis of calcium-silicate-hydrates via molecular dynamics.
+
+### Book
+
+* **Y. Chiang**. (2019) "Eclectic - Time and Urban Aesthetics. Travel Documentary in Spain." OUT Scholarship.
 
 
 # Presentations

@@ -37,7 +37,7 @@ export default createGlobalStyle`
     margin-bottom: 1.5rem;
   }
 
-  h3, h3, h4, h5, h6 {
+  h3, h4, h5, h6 {
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
     line-height: 1.5;
     font-size: 2rem;
