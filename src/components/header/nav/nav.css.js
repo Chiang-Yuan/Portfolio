@@ -44,7 +44,7 @@ export const NavItem = styled(Link)`
   }
 
   :hover {
-    color: goldenrod;
+    color: inherit;
     ::after {
       width: 100%;
 

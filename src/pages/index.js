@@ -1,5 +1,5 @@
 import React from 'react';
-import { css } from "@emotion/core"
+import { Helmet } from 'react-helmet';
 import styled from "styled-components"
 import PropTypes from 'prop-types';
 import HomeLayout from 'components/homelayout';
@@ -15,7 +15,7 @@ import avatar from '../../content/images/avatar.jpg';
 const Avatar = styled.img`
   height: 40vh;
   border-radius: 2%;
-  /* margin: 0; */
+  margin: 0;
 `
 
 const Title = styled.h1`
@@ -27,17 +27,30 @@ const Title = styled.h1`
 `
 
 const Subtitle = styled.h2`
-  font-weight: 300;
+  font-weight: 350;
   font-size: 2rem;
   color: white;
   max-width: 60rem;
-  line-height: 1.2;
+  line-height: 1.25;
   margin: 2rem 0rem;
   /* max-height: 30vh; */
 `
 
-const Main = styled.div`
+const Box = styled.div`
   padding: 4rem 4rem;
+  a {
+    color: #DEE2E6;
+    transition: color 0.2s ease;
+    text-decoration: none;
+    &:hover {
+      color: red;
+    }
+  }
+`
+
+const Main = styled.p`
+  /* padding: 4rem 4rem; */
+  max-width: 80rem;
   a {
     color: #DEE2E6;
     transition: color 0.2s ease;
@@ -50,24 +63,21 @@ const Main = styled.div`
 
 const Index = ({ data }) => (
   <HomeLayout>
-    <Main>
-      <Title>Yuan Chiang</Title>
+    <Box>
+      <Title>@CY</Title>
       <Avatar src={avatar} alt={avatar}/>
       <Subtitle>
-        Graduate research assistant at NTU. Amateur popping dancer who is also good at molecular dynamics and machine learning. A perfectionist.
+        Amateur popping dancer who is also good at molecular dynamics (MD) and machine learning (ML). Not a nerd, absolutely.
       </Subtitle>
       <Subtitle style={{ color: '#FFFFFF', fontWeight: 500, backgroundColor: '#AB40DF', padding: 10}}>
         Currently seeking a PhD admission in the US
       </Subtitle>
-      <div css={css`
-        max-width: 60rem;
-        `}
-      >
+      <Main
         dangerouslySetInnerHTML={{
           __html: data.homeJson.content.childMarkdownRemark.html,
         }}
-      </div>
-    </Main>
+      />
+    </Box>
     <Gallery items={data.homeJson.gallery} />
     <div style={{ height: '50vh' }} />
   </HomeLayout>

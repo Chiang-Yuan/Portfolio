@@ -2,12 +2,6 @@
   "title": "Yuan Chiang",
   "content": "intro.md",
   "gallery": [{
-    "title": "React Context Click" ,
-    "copy": "For global styles.",
-    "path": "/publication",
-    "image": "../images/gallery/react-context.jpg"
-  },
-  {
     "title": "Multiscale Mechanics and Atomistic Modeling of Cementitious Materials" ,
     "copy": "Molecular dynamics simulation",
     "path": "/publication",
@@ -16,25 +10,13 @@
   {
     "title": "In silico Modeling of Bio-inspired Structural Composites",
     "copy": "Lattice spring model",
-    "path": "/blog",
+    "path": "/publication",
     "image": "../research/bio.jpg"
   },
   {
     "title": "Machine-Learning Aided Structure Health Monitoring",
     "copy": "Time series reconstruction and classification using Convolutional Neural Network",
-    "path": "/blog",
-    "image": "../research/shm.jpg"
-  },
-  {
-    "title": "Page Transitions",
-    "copy": "Component-based for easy usage.",
     "path": "/publication",
-    "image": "../images/gallery/page-transitions.jpg"
-  },
-  {
-    "title": "Intersection Observer",
-    "copy": "Including a polyfill for Safari.",
-    "path": "/blog",
-    "image": "../images/gallery/intersection-observer.jpg"
+    "image": "../research/shm.jpg"
   }]
 }
