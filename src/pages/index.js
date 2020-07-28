@@ -67,11 +67,13 @@ const Index = ({ data }) => (
       <Title>@Yuan</Title>
       <Avatar src={avatar} alt={avatar}/>
       <Subtitle>
-        Amateur popping dancer who is also good at molecular dynamics (MD) and machine learning (ML). Not a nerd, absolutely.
+        Research assistant at NTU. Good at molecular dynamics (MD) and machine learning (ML). Amateur popping dancer, not a nerd.
       </Subtitle>
-      <Subtitle style={{ color: '#FFFFFF', fontWeight: 500, backgroundColor: '#AB40DF', padding: 10}}>
-        Currently seeking a PhD position in the US
-      </Subtitle>
+      {
+      // <Subtitle style={{ color: '#FFFFFF', fontWeight: 500, backgroundColor: '#AB40DF', padding: 10}}>
+      //   Currently seeking a PhD position in the US
+      // </Subtitle>
+      }
       <Main
         dangerouslySetInnerHTML={{
           __html: data.homeJson.content.childMarkdownRemark.html,
