@@ -4,7 +4,7 @@
   "gallery": [{
     "title": "Multiscale Mechanics and Atomistic Modeling of Cementitious Materials" ,
     "copy": "Molecular dynamics simulation",
-    "path": "/publication",
+    "path": "/blog/csh",
     "image": "../research/csh.jpg"
   },
   {

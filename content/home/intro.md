@@ -9,6 +9,8 @@ Yuan completed his Bachelor of Science in [Civil Engineering](http://www.ce.ntu.
 
 Yuan's research focuses on multiscale mechanics and materials modeling, including atomistic simulation of calcium-silicate-hydrates (C-S-H), bio-inspired structural composites, copper-tin intermetallic compound (IMC). He has worked on computational mechanics, molecular dynamics as well as associated mathematical formulation and complex coding and algorithm (see [GitHub Repo](https://github.com/Chiang-Yuan)), having some side projects using machine learning to detect structure damage, and predict materials properties.
 
+-----
+
 ## About this site
 
 To cure your curiosity, this site is:

@@ -5,6 +5,7 @@ import PropTypes from 'prop-types';
 import MathJax from 'react-mathjax';
 
 import { StaticQuery, graphql } from 'gatsby';
+import Img from "gatsby-image"
 // import { Global } from "@emotion/core"
 
 import Head from 'components/head';
@@ -13,6 +14,7 @@ import Header from 'components/header';
 
 import BlogStyle from './bloglayout.css.js';
 
+
 export function BlogLayout({ data, children }) {
   return (
     <div>
@@ -20,7 +22,7 @@ export function BlogLayout({ data, children }) {
       <Head />
       <Header title={data.site.siteMetadata.siteTitle} />
       <MathJax.Provider>
-        <div style={{ margin: `auto auto`, maxWidth: 1080, padding: `0 0` }}>
+        <div style={{ margin: `auto auto`, maxWidth: 960, padding: `0 0` }}>
           <MathJax.Node formula={``} />
           {children}
           <MathJax.Node formula={``} />
