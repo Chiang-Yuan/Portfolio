@@ -1,7 +1,8 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Box from '../components/box';
-import BlogLayout  from "../components/bloglayout"
+import BlogLayout  from "../components/bloglayout";
+import Img from "gatsby-image";
 
 import MathJax from 'react-mathjax';
 
