@@ -101,6 +101,19 @@ module.exports = {
             options: {
               maxWidth: 960,
             },
+            resolve: "gatsby-remark-embed-video",
+            options: {
+              width: 800,
+              height: 450,
+              related: false,
+              noIframeBorder: true,
+              urlOverrides: [
+                {
+                  id: 'youtube',
+                  embedURL: (videoId) => `https://www.youtube-nocookie.com/embed/${videoId}`,
+                }
+              ]
+            }
           },
         ],
       },
