@@ -45,6 +45,16 @@ Yuan is building this demo to show how to use markdown in this blog
 >
 > more quotes
 
+## Code
+
+```
+import numpy as np
+
+np.array([1, 2, 3, 4])
+```
+
+
+
 ## Use MathJax to render Latex
 
 
