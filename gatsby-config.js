@@ -11,6 +11,7 @@ module.exports = {
     `gatsby-plugin-offline`,
     `gatsby-transformer-json`,
     `gatsby-plugin-eslint`,
+    `gatsby-plugin-mdx`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -96,6 +97,7 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
+          `gatsby-remark-responsive-iframe`,
           {
             resolve: `gatsby-remark-images`,
             options: {

@@ -22,8 +22,8 @@ export default function Blog({ data }) {
     <Layout>
       <Box>
         <h1>Blog</h1>
-        <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
-        {data.allMarkdownRemark.edges.map(({ node }) => (
+        <h4>{data.allMdx.totalCount} Posts</h4>
+        {data.allMdx.edges.map(({ node }) => (
           <div key={node.id}>
             <h3 css={css`
               text-decoration: none;
@@ -58,6 +58,43 @@ export default function Blog({ data }) {
             }
           </div>
         ))}
+        {
+        //   data.allMarkdownRemark.edges.map(({ node }) => (
+        //   <div key={node.id}>
+        //     <h3 css={css`
+        //       text-decoration: none;
+        //       `}
+        //     >
+        //       {node.frontmatter.date}
+        //     </h3>
+        //     <Link
+        //       to={node.fields.slug}
+        //       css={css`
+        //         /* text-decoration: none; */
+        //         color: inherit;
+        //       `}
+        //     >
+        //       <h2
+        //         css={css`
+        //           margin-bottom: ${rhythm(1 / 4)};
+        //         `}
+        //       >
+        //         {node.frontmatter.title}{" "}
+        //         <span
+        //           css={css`
+        //             color: #555;
+        //           `}
+        //         >
+        //
+        //         </span>
+        //       </h2>
+        //       </Link>
+        //     {
+        //       <p>{node.excerpt}</p>
+        //     }
+        //   </div>
+        // ))
+        }
       </Box>
     </Layout>
   )
@@ -65,7 +102,7 @@ export default function Blog({ data }) {
 
 export const query = graphql`
   query {
-    allMarkdownRemark(
+    allMdx(
       sort: { fields: [frontmatter___date], order: DESC}
       filter: {fileAbsolutePath: {regex: "content/blog/"  }}
     ){
@@ -86,6 +123,49 @@ export const query = graphql`
     }
   }
 `
+
+// export const query = graphql`
+//   query {
+//     allMarkdownRemark(
+//       sort: { fields: [frontmatter___date], order: DESC}
+//       filter: {fileAbsolutePath: {regex: "content/blog/"  }}
+//     ){
+//       totalCount
+//       edges {
+//         node {
+//           id
+//           frontmatter {
+//             title
+//             date(formatString: "DD MMMM, YYYY")
+//           }
+//           fields {
+//             slug
+//           }
+//           excerpt
+//         }
+//       }
+//     }
+//     allMdx(
+//       sort: { fields: [frontmatter___date], order: DESC}
+//       filter: {fileAbsolutePath: {regex: "content/blog/"  }}
+//     ){
+//       totalCount
+//       edges {
+//         node {
+//           id
+//           frontmatter {
+//             title
+//             date(formatString: "DD MMMM, YYYY")
+//           }
+//           fields {
+//             slug
+//           }
+//           excerpt
+//         }
+//       }
+//     }
+//   }
+// `
 
 // import React from 'react';
 // // import ReactMarkdown from 'react-markdown';
