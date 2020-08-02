@@ -4,7 +4,7 @@ import Box from '../components/box';
 import BlogLayout  from "../components/bloglayout";
 import Img from "gatsby-image";
 
-import MathJax from 'react-mathjax';
+// import MathJax from 'react-mathjax';
 
 export default function BlogPost({ data }) {
   const post = data.markdownRemark
@@ -12,11 +12,7 @@ export default function BlogPost({ data }) {
     <BlogLayout>
       <Box>
         <h1>{post.frontmatter.title}</h1>
-        <MathJax.Provider>
-          <MathJax.Node formula={``} />
             <div dangerouslySetInnerHTML={{ __html: post.html }} />
-          <MathJax.Node formula={``} />
-        </MathJax.Provider>
       </Box>
     </BlogLayout>
   )
