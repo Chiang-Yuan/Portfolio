@@ -67,7 +67,7 @@ const Index = ({ data }) => (
       <Title>@Yuan</Title>
       <Avatar src={avatar} alt={avatar}/>
       <Subtitle>
-        Research assistant at NTU. Good at computational mechanics, molecular dynamics (MD) and machine learning (ML). Amateur popping dancer. Computer nerd.
+        Research assistant at NTU. Good at computational mechanics, molecular dynamics (MD) and machine learning (ML). Amateur popping dancer and Kung-Fu player. Computer nerd.
       </Subtitle>
       {
       // <Subtitle style={{ color: '#FFFFFF', fontWeight: 500, backgroundColor: '#AB40DF', padding: 10}}>
