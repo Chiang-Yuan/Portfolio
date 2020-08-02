@@ -7,6 +7,8 @@ import { MDXProvider } from "@mdx-js/react"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 import { Link } from "gatsby"
 
+require(`gatsby-remark-mathjax-ssr/mathjax.css`)
+
 // import MathJax from 'react-mathjax';
 // <MathJax.Provider>
 //   <MathJax.Node formula={``} />
