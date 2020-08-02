@@ -40,7 +40,6 @@ module.exports = {
         resolve: "gatsby-transformer-remark",
         options: {
           plugins: [
-            `gatsby-remark-responsive-iframe`,
           {
             resolve: "gatsby-remark-embed-video",
             options: {
@@ -116,3 +115,5 @@ module.exports = {
     },
   ],
 };
+
+// `gatsby-remark-responsive-iframe`,
