@@ -40,6 +40,7 @@ module.exports = {
         resolve: "gatsby-transformer-remark",
         options: {
           plugins: [
+          `gatsby-remark-responsive-iframe`,
           {
             resolve: "gatsby-remark-embed-video",
             options: {
@@ -93,10 +94,11 @@ module.exports = {
       },
     },
     `gatsby-plugin-sharp`,
+    `gatsby-remark-images`,
     {
-      resolve: `gatsby-transformer-remark`,
+      resolve: `gatsby-plugin-mdx`,
       options: {
-        plugins: [
+        gatsbyRemarkPlugins: [
           {
             resolve: `gatsby-remark-images`,
             options: {
@@ -109,8 +111,7 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `blog`,
-        path: `${__dirname}/content/blog/`,
+        path: `${__dirname}/src/pages`,
       },
     },
   ],
