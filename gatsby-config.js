@@ -11,6 +11,7 @@ module.exports = {
     `gatsby-plugin-offline`,
     `gatsby-transformer-json`,
     `gatsby-plugin-eslint`,
+    'gatsby-plugin-social-cards',
     `gatsby-plugin-mdx`,
     {
       resolve: `gatsby-source-filesystem`,
