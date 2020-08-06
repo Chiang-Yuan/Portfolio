@@ -1,7 +1,7 @@
 
 **CV** : [download](https://drive.google.com/file/d/1oumg9hWhbhjsvoUpB5QpmyBvsQnCMg_c/view?usp=sharing')
 
-**Email** : <a href='mailto:qaqowotut@gmail.com'> qaqowotut@gamil.com </a>
+**Email** : <a href='mailto:qaqowotut@gmail.com'> qaqowotut@gmail.com </a>
 
 ## Bio
 

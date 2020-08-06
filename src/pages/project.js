@@ -21,6 +21,14 @@ const Project = ({ data }) => (
     </Box>
     <Gallery items={data.researchJson.gallery} />
     <Box>
+      <h1>{data.learningJson.title}</h1>
+      <div
+        dangerouslySetInnerHTML={{
+          __html: data.learningJson.content.childMarkdownRemark.html,
+        }}
+      />
+    </Box>
+    <Box>
       <h1>{data.volunteerJson.title}</h1>
       <div
         dangerouslySetInnerHTML={{
@@ -62,6 +70,27 @@ export const query = graphql`
       }
     }
     volunteerJson {
+      title
+      content {
+        childMarkdownRemark {
+          html
+          rawMarkdownBody
+        }
+      }
+      gallery {
+        title
+        copy
+        path
+        image {
+          childImageSharp {
+            fluid(maxHeight: 750, quality: 90) {
+              ...GatsbyImageSharpFluid_withWebp
+            }
+          }
+        }
+      }
+    }
+    learningJson {
       title
       content {
         childMarkdownRemark {
