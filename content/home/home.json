@@ -8,9 +8,15 @@
     "image": "../research/csh.jpg"
   },
   {
-    "title": "Poping and Dancing",
-    "copy": "Collection of my peformance",
+    "title": "Popping and Dancing",
+    "copy": "Collection of my dancing peformance",
     "path": "/blog/dancing",
     "image": "../images/popping.jpg"
+  },
+  {
+    "title": "Travel",
+    "copy": "Where it all begins",
+    "path": "/blog/travel",
+    "image": "../images/out.jpg"
   }]
 }
