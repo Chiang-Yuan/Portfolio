@@ -1,4 +1,10 @@
 {
   "title": "Courses and Workshop",
   "content": "learning.md",
+  "gallery": [{
+    "title": " " ,
+    "copy": " ",
+    "path": "/publication",
+    "image": "../images/gallery/intersection-observer.jpg"
+  }]
 }
