@@ -4,6 +4,8 @@ import Box from '../components/box';
 import BlogLayout  from "../components/bloglayout";
 import Img from "gatsby-image";
 
+require(`gatsby-remark-mathjax-ssr/mathjax.css`)
+
 // import MathJax from 'react-mathjax';
 
 export default function BlogPost({ data }) {

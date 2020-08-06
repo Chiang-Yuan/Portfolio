@@ -16,7 +16,7 @@
   {
     "title": "Machine-Learning Aided Structure Health Monitoring",
     "copy": "Time series reconstruction and classification using Convolutional Neural Network",
-    "path": "/publication",
+    "path": "/blog/shm",
     "image": "shm.jpg"
   }]
 }

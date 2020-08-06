@@ -3,11 +3,12 @@ import { graphql } from "gatsby"
 import Box from '../components/box';
 import BlogLayout  from "../components/bloglayout";
 import Img from "gatsby-image";
+require(`gatsby-remark-mathjax-ssr/mathjax.css`)
 import { MDXProvider } from "@mdx-js/react"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 import { Link } from "gatsby"
 
-require(`gatsby-remark-mathjax-ssr/mathjax.css`)
+
 
 // import MathJax from 'react-mathjax';
 // <MathJax.Provider>
