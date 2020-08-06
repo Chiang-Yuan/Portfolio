@@ -3,7 +3,7 @@
   "content": "intro.md",
   "gallery": [{
     "title": "Projects" ,
-    "copy": "Molecular dynamics simulation | Computaional Mechanics | Machine Learning",
+    "copy": "Molecular dynamics simulation | Computational Mechanics | Machine Learning",
     "path": "/project",
     "image": "../research/csh.jpg"
   },
