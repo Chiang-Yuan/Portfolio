@@ -21,7 +21,7 @@ export default function PageTemplate({ data: { mdx } }) {
       <Box>
         <h1>{mdx.frontmatter.title}</h1>
           <MDXProvider components={shortcodes}>
-            <MDXRenderer>{mdx.html}</MDXRenderer>
+            <MDXRenderer>{mdx.body}</MDXRenderer>
           </MDXProvider>
       </Box>
     </BlogLayout>
@@ -32,7 +32,7 @@ export const pageQuery = graphql`
   query BlogPostQuery($slug: String!) {
     mdx(fields: { slug: { eq: $slug } }) {
       id
-      html
+      body
       frontmatter {
         title
       }
