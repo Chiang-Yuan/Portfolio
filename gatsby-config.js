@@ -111,6 +111,7 @@ module.exports = {
       resolve: `gatsby-plugin-mdx`,
       options: {
         gatsbyRemarkPlugins: [
+          `gatsby-remark-mathjax-ssr`,
           {
             resolve: `gatsby-remark-images`,
             options: {
