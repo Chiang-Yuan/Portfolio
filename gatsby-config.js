@@ -28,8 +28,18 @@ module.exports = {
       }
     },
     {
-  		'gatsby-plugin-social-cards',
-  	},
+      resolve: "gatsby-plugin-social-cards",
+      options: {
+        // ommit to skip
+        authorImage: "./content/images/avatar.jpg",
+        // image to use when no cover in frontmatter
+        // backgroundImage: "./static/img/hvitserkur.JPG",
+        // author to use when no auth in frontmatter
+        defaultAuthor: "Yuan Chiang",
+        // card design
+        design: "default", // 'default' or 'card'
+    },
+  },
     {
      resolve: `gatsby-plugin-typography`,
      options: {
