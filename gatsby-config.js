@@ -35,7 +35,7 @@ module.exports = {
      options: {
        pathToConfigModule: `src/utils/typography`,
      },
-   },
+    },
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
