@@ -11,7 +11,6 @@ module.exports = {
     `gatsby-plugin-offline`,
     `gatsby-transformer-json`,
     `gatsby-plugin-eslint`,
-    'gatsby-plugin-social-cards',
     `gatsby-plugin-mdx`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -29,36 +28,8 @@ module.exports = {
       }
     },
     {
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        plugins: [`gatsby-remark-copy-linked-files`],
-        options: {
-            destinationDir: f => `/files/${f.name}`,
-          },
-      },
-    },
-    {
-        resolve: "gatsby-transformer-remark",
-        options: {
-          plugins: [
-          {
-            resolve: "gatsby-remark-embed-video",
-            options: {
-              width: 800,
-              height: 450,
-              related: false,
-              noIframeBorder: true,
-              urlOverrides: [
-                {
-                  id: 'youtube',
-                  embedURL: (videoId) => `https://www.youtube-nocookie.com/embed/${videoId}`,
-                }
-              ]
-            }
-          }
-          ]
-        }
-    },
+  		'gatsby-plugin-social-cards',
+  	},
     {
      resolve: `gatsby-plugin-typography`,
      options: {
