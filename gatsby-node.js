@@ -39,21 +39,19 @@ exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
   const result = await graphql(`
     query {
-      allMdx(
-        sort: { fields: [frontmatter___date], order: DESC}
-        filter: {fileAbsolutePath: {regex: "content/blog/"  }}
-      ){
-        edges {
-          node {
-            fields {
-              slug
-            }
-            frontmatter{
-              date
-            }
-          }
+      allMdx(sort: {fields: [frontmatter___date], order: DESC},
+    		 filter: {fileAbsolutePath: {regex: "content/blog/"}}) {
+    edges {
+      node {
+        fields {
+          slug
+        }
+        frontmatter {
+          date
         }
       }
+    }
+  }
     }
   `)
   result.data.allMdx.edges.forEach(({ node }) => {

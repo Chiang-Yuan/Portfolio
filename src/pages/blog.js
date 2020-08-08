@@ -104,7 +104,8 @@ export const query = graphql`
   query {
     allMdx(
       sort: { fields: [frontmatter___date], order: DESC}
-      filter: {fileAbsolutePath: {regex: "content/blog/"  }}
+      filter: {frontmatter: {public: {eq: true}},
+               fileAbsolutePath: {regex: "content/blog/"}}
     ){
       totalCount
       edges {

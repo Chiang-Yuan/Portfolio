@@ -25,23 +25,46 @@ const BlogStyle =  createGlobalStyle`
 
   h1 {
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-    line-height: 2.0;
+    line-height: 1.5;
     font-size: 4rem;
-    margin-bottom: 2rem;
+    font-weight: 550;
+    margin-bottom: 5rem;
   }
 
   h2 {
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
     line-height: 2.0;
     font-size: 3rem;
+    font-weight: 500;
     margin-bottom: 1.5rem;
   }
 
-  h3, h3, h4, h5, h6 {
+  h3, h4, h5, h6 {
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
     line-height: 2.0;
+    font-weight: 450;
     font-size: 2rem;
   }
+
+  // h1 {
+  //   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  //   line-height: 2.0;
+  //   font-size: 4rem;
+  //   margin-bottom: 2rem;
+  // }
+  //
+  // h2 {
+  //   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  //   line-height: 2.0;
+  //   font-size: 3rem;
+  //   margin-bottom: 1.5rem;
+  // }
+  //
+  // h3, h3, h4, h5, h6 {
+  //   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  //   line-height: 2.0;
+  //   font-size: 2rem;
+  // }
 
   /* HTML5 display-role reset for older browsers */
   article, aside, details, figcaption, figure,
