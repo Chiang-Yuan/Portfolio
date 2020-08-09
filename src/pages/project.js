@@ -28,6 +28,7 @@ const Project = ({ data }) => (
         }}
       />
     </Box>
+    <Gallery items={data.learningJson.gallery} />
     <Box>
       <h1>{data.volunteerJson.title}</h1>
       <div
