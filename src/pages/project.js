@@ -9,6 +9,14 @@ import IOExample from 'components/io-example';
 import Modal from 'containers/modal';
 import { graphql } from 'gatsby';
 
+import { MDXProvider } from "@mdx-js/react"
+import { MDXRenderer } from "gatsby-plugin-mdx"
+import { Link } from "gatsby"
+
+require(`gatsby-remark-mathjax-ssr/mathjax.css`)
+
+const shortcodes = { Link } // Provide common components here
+
 const Project = ({ data }) => (
   <Layout>
     <Box>
@@ -22,11 +30,9 @@ const Project = ({ data }) => (
     <Gallery items={data.researchJson.gallery} />
     <Box>
       <h1>{data.learningJson.title}</h1>
-      <div
-        dangerouslySetInnerHTML={{
-          __html: data.learningJson.content.childMarkdownRemark.html,
-        }}
-      />
+      <MDXProvider components={shortcodes}>
+        <MDXRenderer>{data.learningJson.content.childMdx.body}</MDXRenderer>
+      </MDXProvider>
     </Box>
     <Gallery items={data.learningJson.gallery} />
     <Box>
@@ -94,9 +100,9 @@ export const query = graphql`
     learningJson {
       title
       content {
-        childMarkdownRemark {
+        childMdx {
           html
-          rawMarkdownBody
+          body
         }
       }
       gallery {
