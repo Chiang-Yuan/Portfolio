@@ -4,7 +4,7 @@
   "gallery": [{
     "title": " " ,
     "copy": " ",
-    "path": "/publication",
-    "image": "../images/gallery/intersection-observer.jpg"
+    "path": "/project",
+    "image": "apmc.jpg"
   }]
 }
