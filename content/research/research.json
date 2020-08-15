@@ -18,5 +18,11 @@
     "copy": "Time series reconstruction and classification using Convolutional Neural Network",
     "path": "/blog/shm",
     "image": "shm.jpg"
+  },
+  {
+    "title": "Molecular Mechanics of Proteins and Biomaterials",
+    "copy": "",
+    "path": "/project",
+    "image": "protein.jpg"
   }]
 }

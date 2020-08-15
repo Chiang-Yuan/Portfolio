@@ -101,7 +101,6 @@ export const query = graphql`
       title
       content {
         childMdx {
-          html
           body
         }
       }

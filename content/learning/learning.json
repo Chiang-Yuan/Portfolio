@@ -2,9 +2,15 @@
   "title": "Courses, Training, and Competitions",
   "content": "learning.mdx",
   "gallery": [{
-    "title": "First place in APMC 2017 Hackathon" ,
+    "title": " " ,
     "copy": " ",
-    "path": "/project",
+    "path": " ",
+    "image": "GPU.jpeg"
+  },
+  {
+    "title": " " ,
+    "copy": " ",
+    "path": " ",
     "image": "apmc.jpg"
   }]
 }

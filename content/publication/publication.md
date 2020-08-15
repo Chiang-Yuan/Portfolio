@@ -5,9 +5,9 @@
 
 **In Print**
 
-* K.C. Yeh, **Y. Chiang**, S.W. Chang. (2020) "Full atomistic simulation of cross-linked gold nanoparticle assemblies." Multiscale Science and Engineering. ***Accepted***.
-
 **Submitted**
+
+* K.C. Yeh, **Y. Chiang**, S.W. Chang. (2020) "Full atomistic simulation of cross-linked gold nanoparticle assemblies." Multiscale Science and Engineering. ***Accepted***.
 
 * **Y. Chiang**, S.W. Chang. (2020) "Bridging the gap between NMR measured mean silicate chain length and nano-scale silicate polymorphism of calcium silicate hydrates." ***Under review***. [[preprint](https://github.com/Chiang-Yuan/Portfolio/raw/master/content/publication/CSH_preprint_CCR.pdf)]
 
