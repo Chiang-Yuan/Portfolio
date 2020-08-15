@@ -17,7 +17,15 @@ geometries in terms of specific stiffening, strengthening, and toughening becaus
 
 ## Lattice Spring Model
 
-Lattice Spring Model (LSM), one of the most common coarse-grained methods, is able to simulate the fracture of elastic body in a good agreement with fracture mechanics and continuum theorem. 
+Lattice Spring Model (LSM), one of the most common coarse-grained methods, is able to simulate the fracture of elastic body in good agreement with fracture mechanics and continuum theorem. The pair-wise potential energy between particles is usually described as harmonic spring snapping potential:
+
+$$
+\large
+U(\eta) = \left\lbrace \begin{aligned}
+& \frac{1}{2}k\left(\eta - \eta_0 \right)^2 & \eta \leq \eta_f \\
+& 0 & \eta > \eta_f
+\end{aligned}\right.
+$$
 
 import Video from "../../src/components/video"
 
