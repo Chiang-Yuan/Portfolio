@@ -15,7 +15,7 @@
   },
   {
     "title": "Machine-Learning Aided Structure Health Monitoring",
-    "copy": "High-dimensional dynamics systems need data-driven strategies to extract features from time series response data. In this project, we use Takens' Embedding Theorem to reconstruct manifolds and adopt Convolutional Neural Network to learn the damage severity and location from excitation-response data.",
+    "copy": "High-dimensional dynamics systems need data-driven strategies to extract features from time series response. In this project, we use Takens' Embedding Theorem to reconstruct manifolds by the method of delay. We demonstrate that Convolutional Neural Network is capable of learning the damage severity and location from velocity reponse of building with solely ambient excitation.",
     "path": "/blog/shm",
     "image": "shm.jpg"
   },
