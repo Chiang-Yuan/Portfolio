@@ -3,9 +3,9 @@
 
 ### Journal Paper
 
-**In Print**
+In Print
 
-**Submitted**
+Submitted
 
 * K.C. Yeh, **Y. Chiang**, S.W. Chang. (2020) "Full atomistic simulation of cross-linked gold nanoparticle assemblies." Multiscale Science and Engineering. ***Accepted***.
 
@@ -15,7 +15,7 @@
 composites inspired by Fibonacci lattice in
 *Liquidambar formosana*." ***Under review***. [[preprint](https://github.com/Chiang-Yuan/Portfolio/raw/master/content/publication/BioMGI_preprint_CS.pdf)]
 
-**In Preparation**
+In Preparation
 
 ### Thesis
 
