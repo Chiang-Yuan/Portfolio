@@ -10,9 +10,28 @@ tags:
   - "MDX"
 ---
 
-Creating blog pages with vivid and various components could be an awful experience in web development. 
+Creating blog pages with vivid and various components could be an awful experience in web development. With state-of-the-art MDX in Gatsby.js framework, importing plugins and components is no longer a pain in the butt for the self-taught programmer like myself. All of the good web design elements, such as stylish typography, YouTube embedded video, Latex rendered math equation, etc., could be easily done in simple and straightforward fasions.
+
+The basic markdown syntax can be found on [official website]([Markdown](https://www.markdownguide.org/basic-syntax/)
+). Below I show the basic components as well as some extensions for the scientific and technical blog pages with full functions and features:
 
 ## List
+
+To create bullet and numbered items in list format, simply use `*`, `+`, `-`, `1.` along with tabs:
+
+```
+* Gatsby
+  * docs
+- Gatsby
+  - docs
++ Gatsby
+  + docs
+
+1. One
+1. Two
+1. Three
+```
+The above code will be rendered as:
 
 * Gatsby
   * docs
@@ -27,13 +46,29 @@ Creating blog pages with vivid and various components could be an awful experien
 
 ## Video
 
+To embed videos in MDX (like YouTube, vimeo), we need to install `gatsby-remark-responsive-iframe` through terminal
+```
+npm install --save gatsby-remark-responsive-iframe
+```
+Reponsive iframe has one biggest advantage: scaling the frame with fixed aspect ratio with respect to screen size. After installation, add the following lines in `gatsby-config.js`
+```
+plugins: [
+  {
+    resolve: `gatsby-plugin-mdx`,
+    options: {
+      gatsbyRemarkPlugins: [
+        `gatsby-remark-responsive-iframe`,
+      ],
+    },
+  }
+]
+```
+In the MDX file, add ***embedding link*** of YouTube video to `src` and assign attributes `width` and `height` for aspect ratio calculation.
+```
+<iframe src="https://www.youtube.com/embed/69yc9KvO2VU" width="880" height="495"></iframe>
+```
 
-import Video from "../../src/components/video"
-
-<Video
-  videoSrcURL="https://www.youtube.com/embed/75JHJ45Le0c"
-  videoTitle="Official Music Video on YouTube"
-/>
+<iframe src="https://www.youtube.com/embed/69yc9KvO2VU" width="880" height="495"></iframe>
 
 ## Embedded Journal Link
 
@@ -41,6 +76,16 @@ import Video from "../../src/components/video"
 
 
 ## Quote
+
+```
+> blockquote
+>
+> > nested blockquote
+>
+> > **I'm bold!**
+>
+> more quotes
+```
 
 > blockquote
 >
@@ -52,13 +97,13 @@ import Video from "../../src/components/video"
 
 ## Code
 
+Wrap the code in a pair of  \`\`\` 
+
 ```
 import numpy as np
 
 np.array([1, 2, 3, 4])
 ```
-
-
 
 ## Use MathJax to render Latex
 

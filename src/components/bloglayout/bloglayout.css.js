@@ -118,23 +118,43 @@ const BlogStyle =  createGlobalStyle`
   }
 
   pre {
-    display: block;
-    padding: 2rem;
-    margin-top: 4rem;
-    overflow: auto;
-    font-size: 85%;
-    line-height: 1.45;
-    border-radius: 5px;
-    color: ${accent};
-    border: 1px solid #ddd;
+    // display: block;
+    // padding: 2rem;
+    // // margin-top: 4rem;
+    // overflow: auto;
+    // font-size: 85%;
+    // line-height: 1.45;
+    // border-radius: 5px;
+    // color: ${accent};
+    // background-color: #CFCFCF;
+    // border: 1px solid #ddd;
+    // font-family: "SFMono-Regular",Consolas,"Liberation Mono",Menlo,Courier,monospace;
+
+    // font-family: monospace;
     font-family: "SFMono-Regular",Consolas,"Liberation Mono",Menlo,Courier,monospace;
+
+    background-color: #4C4C4C;
+    width: em(440);
+    margin: 2em auto;
+    padding: 2em;
+    border: 1px solid #ddd;
+    border-radius: 1em;
+    box-shadow: .1em .1em .5em rgba(0,0,0,.45);
+    line-height: 0;
+    counter-reset: line;
+    code {
+      color: #fff;
+      border: 0px;
+    }
+
   }
 
   code {
     font-family: "SFMono-Regular",Consolas,"Liberation Mono",Menlo,Courier,monospace;
-    // font-family: Menlo, Monaco, "Courier New", monospace
-    // font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-    // line-height: 2.0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 0rem;
+    line-height: 1.5;
     font-size: 1.6rem;
     color: #635e69;
   }
@@ -145,6 +165,8 @@ const BlogStyle =  createGlobalStyle`
 
   p {
     margin-bottom: 2rem;
+    line-height: 1.75;
+    font-size: 1.6rem;
   }
 `;
 

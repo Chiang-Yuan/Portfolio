@@ -77,7 +77,7 @@ module.exports = {
     {
       resolve: `gatsby-transformer-remark`,
       options: {
-        plugins: [
+        plugins: [`gatsby-remark-responsive-iframe`,
           {
             resolve: `gatsby-remark-mathjax-ssr`,
             options: {
@@ -92,6 +92,7 @@ module.exports = {
       resolve: `gatsby-plugin-mdx`,
       options: {
         gatsbyRemarkPlugins: [
+          `gatsby-remark-responsive-iframe`,
           `gatsby-remark-mathjax-ssr`,
           {
             resolve: `gatsby-remark-images`,
