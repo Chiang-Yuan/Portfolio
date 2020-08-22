@@ -97,7 +97,7 @@ In the MDX file, add ***embedding link*** of YouTube video to `src` and assign a
 
 ## Code
 
-Wrap the code in a pair of  \`\`\` 
+Wrap the code in a pair of  \`\`\`
 
 ```
 import numpy as np
@@ -107,6 +107,7 @@ np.array([1, 2, 3, 4])
 
 ## Use MathJax to render Latex
 
+[MathJax](https://www.mathjax.org/) provides painless accessibility of beautiful math rendering in all browsers.
 
 $$
 \begin{equation}
@@ -114,21 +115,24 @@ f(x) = \int_{-\infty}^\infty \hat f(\xi) e^{2 \pi i \xi x} d\xi
 \end{equation}
 $$
 
-Hi $z = x + y$
+Importing MathJax into Gatsby.js needs the plugin `gatsby-remark-mathjax-ssr`
 
-$$a^2 + b^2 = c^2$$
-
-$$
-\begin{vmatrix}
-  a & b \\
-  c & d
-\end{vmatrix} = ad-bc
-$$
-
-When $a \neq 0$ , there are two solutions to $ax^2 + bx + c = 0$ and
-they are
-
-$$ a^2 = b^2 + c^2 $$
+```
+npm install --save gatsby-remark-mathjax-ssr
+```
+Same as the responsive frame for video embeddings, we need to specify the plugin in `gatsby-config.js`
+```
+plugins: [
+  {
+    resolve: `gatsby-plugin-mdx`,
+    options: {
+      gatsbyRemarkPlugins: [
+        `gatsby-remark-mathjax-ssr`,
+      ],
+    },
+  }
+]
+```
 
 ## Paragraph and images from unsplash
 
