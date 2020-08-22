@@ -25,7 +25,7 @@ const BlogStyle =  createGlobalStyle`
 
   h1 {
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-    line-height: 1.5;
+    line-height: 1.1;
     font-size: 4rem;
     font-weight: 600;
     margin-bottom: 5rem;
@@ -33,7 +33,7 @@ const BlogStyle =  createGlobalStyle`
 
   h2 {
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-    line-height: 2.0;
+    line-height: 1.5;
     font-size: 3rem;
     font-weight: 500;
     margin-bottom: 1.5rem;
@@ -41,7 +41,7 @@ const BlogStyle =  createGlobalStyle`
 
   h3, h4, h5, h6 {
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-    line-height: 2.0;
+    line-height: 1.5;
     font-weight: 450;
     font-size: 2rem;
   }
@@ -118,10 +118,10 @@ const BlogStyle =  createGlobalStyle`
   }
 
   pre {
-    // display: block;
+    display: block;
     // padding: 2rem;
     // // margin-top: 4rem;
-    // overflow: auto;
+    overflow: auto;
     // font-size: 85%;
     // line-height: 1.45;
     // border-radius: 5px;

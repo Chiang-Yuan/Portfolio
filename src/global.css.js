@@ -34,7 +34,7 @@ export default createGlobalStyle`
   h2 {
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
     line-height: 1.5;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 500;
     margin-bottom: 1.5rem;
   }
