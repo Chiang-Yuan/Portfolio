@@ -68,7 +68,8 @@ const Index = ({ data }) => (
       <Avatar src={avatar} alt={avatar}/>
       {
       <Subtitle>
-        Graduate student at NTU. Love computational mechanics, molecular dynamics (MD) and machine learning (ML). Amateur popping dancer and Kung-Fu player. 
+        Computational mechanics | Molecular dynamics | Machine learning
+        Graduate student at NTU. Amateur popping dancer and Kung-Fu player.
       </Subtitle>
       // <Subtitle style={{ color: '#FFFFFF', fontWeight: 500, backgroundColor: '#AB40DF', padding: 10}}>
       //   Currently seeking a PhD position in the US
