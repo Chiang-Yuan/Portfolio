@@ -9,11 +9,11 @@ Submitted
 
 * K.C. Yeh, **Y. Chiang**, S.W. Chang. (2020) "Full atomistic simulation of cross-linked gold nanoparticle assemblies." Multiscale Science and Engineering. ***Accepted***.
 
-* **Y. Chiang**, S.W. Chang. (2020) "Bridging the gap between NMR measured mean silicate chain length and nano-scale silicate polymorphism of calcium silicate hydrates." ***Under review***. [[preprint](https://github.com/Chiang-Yuan/Portfolio/raw/master/content/publication/CSH_preprint_CCR.pdf)]
+* **Y. Chiang**, S.W. Chang. (2020) "Bridging the gap between NMR measured mean silicate chain length and nano-scale silicate polymorphism of calcium silicate hydrates." ***Under review***.
 
 * **Y. Chiang**, Cheng-Che Tung, Xiang-Di Lin, Po-Yu Chen, Chuin-Shan Chen, Shu-Wei Chang. (2020) "Geometrically toughening mechanism of cellular
 composites inspired by Fibonacci lattice in
-*Liquidambar formosana*." ***Under review***. [[preprint](https://github.com/Chiang-Yuan/Portfolio/raw/master/content/publication/BioMGI_preprint_CS.pdf)]
+*Liquidambar formosana*." ***Under review***. 
 
 In Preparation
 
