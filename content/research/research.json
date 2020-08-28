@@ -4,19 +4,19 @@
   "gallery": [{
     "title": "Multiscale Mechanics and Atomistic Modeling of Cementitious Materials" ,
     "copy": "Concrete is the third major culprit of carbon dioxides emission on earth. Through atomistic modeling and molecular dynamics, Yuan is developing computational framework to characterize structural and mechanical properties of cement and concrete and bridge the physical observables from nano to macro scale.",
-    "path": "/blog/csh",
+    "path": "/blog/full-atomistic-modeling-of-calcium-silicate-hydrates",
     "image": "csh.jpg"
   },
   {
     "title": "Bio-inspired Structural Composites",
     "copy": "Biological/Bio-inspired/Biomimetic materials provide abundant solutions with exceptional trade-off between fracture toughness and strength unprecedented in engineering materials. In this project, Yuan combines in silico modeling and 3D printing to find special geometry and topology of composites perfecting the efficiency of materials.",
-    "path": "/blog/lf",
+    "path": "/blog/bio-inspired-structural-composites",
     "image": "bio.jpg"
   },
   {
     "title": "Machine-Learning Aided Structure Health Monitoring",
     "copy": "High-dimensional dynamics systems need data-driven strategies to extract features from time series response. In this project, we use Takens' Embedding Theorem to reconstruct manifolds by the method of delay. We demonstrate that Convolutional Neural Network is capable of learning the damage severity and location from velocity reponse of building with solely ambient excitation.",
-    "path": "/blog/shm",
+    "path": "/blog/machine-learning-aided-structure-health-monitoring",
     "image": "shm.jpg"
   },
   {
