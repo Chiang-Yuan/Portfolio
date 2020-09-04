@@ -11,11 +11,14 @@ Submitted
 
 * **Y. Chiang**, S.W. Chang. (2020) "Bridging the gap between NMR measured mean silicate chain length and nano-scale silicate polymorphism of calcium silicate hydrates." ***Under review***.
 
-* **Y. Chiang**, Cheng-Che Tung, Xiang-Di Lin, Po-Yu Chen, Chuin-Shan Chen, Shu-Wei Chang. (2020) "Geometrically toughening mechanism of cellular
-composites inspired by Fibonacci lattice in
-*Liquidambar formosana*." ***Under review***. 
+* **Y. Chiang**, C.C Tung, X.D. Lin, P.Y. Chen, C.C Chen, S.W. Chang. (2020) "Geometrically toughening mechanism of cellular composites inspired by Fibonacci lattice in *Liquidambar formosana*." ***Under review***.
 
 In Preparation
+
+* Y.L Chen ,**Y. Chiang**, C.P. Xin, and S.W. Chang. (2020) "Learning High Dimensional Phase Space Reconstruction with CNN for Structural Health Monitoring."
+
+* **Y. Chiang**, H.C. Chen, and S.W. Chang. (2020) "A simple method for particle discretization from
+raster image and non-convex solid."
 
 ### Thesis
 
