@@ -15,7 +15,7 @@ Submitted
 
 In Preparation
 
-* Y.L Chen ,**Y. Chiang**, C.P. Xin, and S.W. Chang. (2020) "Learning High Dimensional Phase Space Reconstruction with CNN for Structural Health Monitoring."
+* Y.L Chen ,**Y. Chiang**, P.H. Chiu, and S.W. Chang. (2020) "Learning High Dimensional Phase Space Reconstruction with CNN for Structural Health Monitoring."
 
 * **Y. Chiang**, H.C. Chen, and S.W. Chang. (2020) "A simple method for particle discretization from
 raster image and non-convex solid."
