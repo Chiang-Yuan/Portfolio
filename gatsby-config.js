@@ -28,19 +28,6 @@ module.exports = {
       }
     },
     {
-      resolve: "gatsby-plugin-social-cards",
-      options: {
-        // ommit to skip
-        authorImage: "./content/images/avatar.jpg",
-        // image to use when no cover in frontmatter
-        // backgroundImage: "./static/img/hvitserkur.JPG",
-        // author to use when no auth in frontmatter
-        defaultAuthor: "Yuan Chiang",
-        // card design
-        design: "default", // 'default' or 'card'
-    },
-  },
-    {
      resolve: `gatsby-plugin-typography`,
      options: {
        pathToConfigModule: `src/utils/typography`,
@@ -57,7 +44,6 @@ module.exports = {
         icon: `src/images/atom.png`,
       },
     },
-    `gatsby-transformer-sharp`,
     `gatsby-plugin-webpack-size`,
     {
       resolve: `gatsby-plugin-react-svg`,
@@ -77,7 +63,9 @@ module.exports = {
     {
       resolve: `gatsby-transformer-remark`,
       options: {
-        plugins: [`gatsby-remark-responsive-iframe`,
+        plugins: [
+          `gatsby-remark-responsive-iframe`,
+          `gatsby-remark-social-cards`,
           {
             resolve: `gatsby-remark-mathjax-ssr`,
             options: {
