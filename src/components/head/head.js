@@ -16,6 +16,7 @@ const Head = ({
   imageUrl,
   location,
   canonical = siteUrl + (location.pathname || ''),
+  pathname,
 }) => (
   <Helmet>
     <html lang="en" />
@@ -57,7 +58,9 @@ const Head = ({
     <meta content={imageUrl || `${siteUrl}/social.png`} property="og:image" />
     <meta content="1024" property="og:image:width" />
     <meta content="512" property="og:image:height" />
-    <meta content={imageUrl || `${siteUrl}/social.png`} name="twitter:image" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content={`${siteUrl}${pathname}twitter-card.jpg`}/>
     <meta content="1024" name="twitter:image:width" />
     <meta content="512" name="twitter:image:height" />
     <meta content={imageUrl || `${siteUrl}/social.png`} property="og:image" />
@@ -209,3 +212,5 @@ const HeadWithQuery = props => (
 );
 
 export default HeadWithQuery;
+
+// <meta content={imageUrl || `${siteUrl}/social.png`} name="twitter:image" />
