@@ -15,6 +15,7 @@ export function HomeLayout({ data, children }) {
   return (
     <div>
       <HomeStyle />
+      <Head />
       <Header title={data.site.siteMetadata.siteTitle} />
       {children}
     </div>
