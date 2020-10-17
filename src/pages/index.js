@@ -22,7 +22,7 @@ const Title = styled.h1`
   font-weight: 600;
   font-size: 3.75rem;
   color: white;
-  max-width: 60rem;
+  max-width: 75rem;
   border-bottom: 1px solid;
 `
 
@@ -30,7 +30,7 @@ const Subtitle = styled.h2`
   font-weight: 350;
   font-size: 2rem;
   color: white;
-  max-width: 60rem;
+  max-width: 75rem;
   line-height: 1.25;
   margin: 2rem 0rem;
   /* max-height: 30vh; */
@@ -68,8 +68,7 @@ const Index = ({ data }) => (
       <Avatar src={avatar} alt={avatar}/>
       {
       <Subtitle>
-        Computational mechanics | Molecular dynamics | Machine learning
-        Graduate student at NTU. Amateur popping dancer and Kung-Fu player.
+        Molecular Dynamics | Scientific Computing | Multiscale Materials and Mechanics
       </Subtitle>
       // <Subtitle style={{ color: '#FFFFFF', fontWeight: 500, backgroundColor: '#AB40DF', padding: 10}}>
       //   Currently seeking a PhD position in the US
