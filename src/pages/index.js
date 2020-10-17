@@ -37,7 +37,7 @@ const Subtitle = styled.h2`
 `
 
 const Box = styled.div`
-  padding: 4rem 4rem;
+  padding: 3rem 3rem;
   a {
     color: #DEE2E6;
     transition: color 0.2s ease;
