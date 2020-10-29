@@ -3,9 +3,9 @@
 
 ## Journal Papers
 
-1. **Chiang, Y.**, Chang, S.-W. (2020) "Bridging the gap between NMR measured mean silicate chain length and nano-scale silicate polymorphism of calcium silicate hydrates." Cement and Concrete Research. (IF=8.328) ***Accepted***. [preprint](https://drive.google.com/file/d/1mbfLZvUmMKawjT_-oI7LuPNvTM2_QPYn/view?usp=sharing)
+1. **Chiang, Y.**, Chang, S.-W. (2020) "Bridging the gap between NMR measured mean silicate chain length and nano-scale silicate polymorphism of calcium silicate hydrates." Cement and Concrete Research. (IF=8.328) ***Accepted***. [\[preprint\]](https://drive.google.com/file/d/1mbfLZvUmMKawjT_-oI7LuPNvTM2_QPYn/view?usp=sharing)
 
-1. Yeh, K.-C., **Chiang, Y.**, Chang, S.-W. (2020) "Full atomistic simulation of cross-linked gold nanoparticle assemblies." Multiscale Science and Engineering. Multiscale Science and Engineering. [DOI](https://doi.org/10.1007/s42493-020-00050-5) [PDF](https://drive.google.com/file/d/1hHsFhlkSPV7pNeV3OdVcLl5DCzJ2YG6m/view?usp=sharing)
+1. Yeh, K.-C., **Chiang, Y.**, Chang, S.-W. (2020) "Full atomistic simulation of cross-linked gold nanoparticle assemblies." Multiscale Science and Engineering. Multiscale Science and Engineering. [\[DOI\]](https://doi.org/10.1007/s42493-020-00050-5) [\[PDF\]](https://drive.google.com/file/d/1hHsFhlkSPV7pNeV3OdVcLl5DCzJ2YG6m/view?usp=sharing)
 
 ### Submitted
 
