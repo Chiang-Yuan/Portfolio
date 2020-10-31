@@ -16,5 +16,5 @@ Yuan's research focuses on multiscale physics, mechanics and materials modeling,
 
 * Adapted from [@fschultz_](https://twitter.com/fschultz_) and coded by me on [ROG ZEPHYRUS](https://www.asus.com/ROG-Zephyrus-M-GU502-Studio-Edition/) in Taipei
 * Powered by [React](https://reactjs.org/) and [Gatsby](https://www.gatsbyjs.org/)
-* Coded and managed with [Atom](https://atom.io/) and [Github](https://github.com/)
+* Coded and managed with [Atom](https://atom.io/) and [GitHub](https://github.com/)
 * Hosted with love on [Netlify](https://www.netlify.com/)

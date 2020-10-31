@@ -65,12 +65,19 @@ module.exports = {
       options: {
         plugins: [
           `gatsby-remark-responsive-iframe`,
-          `gatsby-remark-social-cards`,
           {
             resolve: `gatsby-remark-mathjax-ssr`,
             options: {
             }
-          }
+          },
+          {
+            resolve: "gatsby-remark-external-links",
+            options: {
+              target: "_blank",
+              rel: "nofollow"
+            }
+          },
+          `gatsby-remark-social-cards`,
         ],
       },
     },

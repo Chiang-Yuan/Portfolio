@@ -41,9 +41,9 @@ export default createGlobalStyle`
 
   h3, h4, h5, h6 {
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 2rem;
     line-height: 1.5;
     font-weight: 450;
-    font-size: 2rem;
   }
 
 
@@ -59,8 +59,8 @@ export default createGlobalStyle`
 
   body {
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-    line-height: 1.5;
     font-size: 1.6rem;
+    line-height: 1.5;
     color: #000;
     background-color: #fff;
     -webkit-text-size-adjust: 100%;
@@ -99,7 +99,6 @@ export default createGlobalStyle`
 
   a {
     color: ${accent};
-    // color: #635e69;
   }
 
   pre {

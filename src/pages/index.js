@@ -39,7 +39,7 @@ const Subtitle = styled.h2`
 const Box = styled.div`
   padding: 3rem 3rem;
   a {
-    color: #DEE2E6;
+    color: #4785E7;
     transition: color 0.2s ease;
     text-decoration: none;
     &:hover {
@@ -52,7 +52,7 @@ const Main = styled.div`
   /* padding: 4rem 4rem; */
   max-width: 80rem;
   a {
-    color: #DEE2E6;
+    color: #4785E7;
     transition: color 0.2s ease;
     text-decoration: none;
     &:hover {

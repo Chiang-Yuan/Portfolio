@@ -8,6 +8,7 @@ import Gallery from 'components/gallery';
 import IOExample from 'components/io-example';
 import Modal from 'containers/modal';
 import { graphql } from 'gatsby';
+import styled from "styled-components"
 
 import { MDXProvider } from "@mdx-js/react"
 import { MDXRenderer } from "gatsby-plugin-mdx"
@@ -15,7 +16,7 @@ import { Link } from "gatsby"
 
 require(`gatsby-remark-mathjax-ssr/mathjax.css`)
 
-const shortcodes = { Link } // Provide common components here
+const shortcodes = { Layout, Box } // Provide common components here
 
 const Project = ({ data }) => (
   <Layout>
