@@ -5,11 +5,13 @@
 
 1. **Chiang, Y.**, Chang, S.-W. (2020) "Bridging the gap between NMR measured mean silicate chain length and nano-scale silicate polymorphism of calcium silicate hydrates." Cement and Concrete Research. (IF=8.328)  [\[doi\]](https://doi.org/10.1016/j.cemconres.2020.106268) [\[preprint\]](https://drive.google.com/file/d/1mbfLZvUmMKawjT_-oI7LuPNvTM2_QPYn/view?usp=sharing)
 
-1. Yeh, K.-C., **Chiang, Y.**, Chang, S.-W. (2020) "Full atomistic simulation of cross-linked gold nanoparticle assemblies." Multiscale Science and Engineering. Multiscale Science and Engineering. [\[doi\]](https://doi.org/10.1007/s42493-020-00050-5) [\[pdf\]](https://drive.google.com/file/d/1hHsFhlkSPV7pNeV3OdVcLl5DCzJ2YG6m/view?usp=sharing)
+1. Yeh, K.-C., **Chiang, Y.**, Chang, S.-W. (2020) "Full atomistic simulation of cross-linked gold nanoparticle assemblies." Multiscale Science and Engineering. [\[doi\]](https://doi.org/10.1007/s42493-020-00050-5) [\[pdf\]](https://drive.google.com/file/d/1hHsFhlkSPV7pNeV3OdVcLl5DCzJ2YG6m/view?usp=sharing)
 
 ### Submitted
 
 1. **Chiang, Y.**, Tung, C.-C., Lin, X.-D., Chen, P.-Y., Chen, C.-S., Chang, S.-W. (2020) "Geometrically toughening mechanism of cellular composites inspired by Fibonacci lattice in *Liquidambar formosana*." ***Minor Revision***.
+
+1. Tsai, Y.-Y.\*, **Chiang, Y.**, Buford, J.-L., Tsai, M.-L., Chen, H.-C., and Chang, S.-W. (2020) "Mechanical and Crack Propagating Behavior of Sierpinski Carpet Composites."
 
 ### In Preparation
 
