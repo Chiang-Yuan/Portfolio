@@ -11,7 +11,7 @@
 
 1. **Chiang, Y.**, Tung, C.-C., Lin, X.-D., Chen, P.-Y., Chen, C.-S., Chang, S.-W. (2020) "Geometrically toughening mechanism of cellular composites inspired by Fibonacci lattice in *Liquidambar formosana*." ***Minor Revision***.
 
-1. Tsai, Y.-Y.\*, **Chiang, Y.**, Buford, J.-L., Tsai, M.-L., Chen, H.-C., and Chang, S.-W. (2020) "Mechanical and Crack Propagating Behavior of Sierpinski Carpet Composites."
+1. Tsai, Y.-Y.\*, **Chiang, Y.\***, Buford, J.-L., Tsai, M.-L., Chen, H.-C., and Chang, S.-W. (2020) "Mechanical and Crack Propagating Behavior of Sierpinski Carpet Composites."
 
 ### In Preparation
 
