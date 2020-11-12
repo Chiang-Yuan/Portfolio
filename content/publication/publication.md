@@ -19,7 +19,7 @@
 
 1. **Chiang, Y.**, Chen, H.-C., and Chang, S.-W.. (2020) "A simple method for particle discretization from raster image and non-convex solid."
 
-### Thesis
+## Thesis
 
 * **Bachelor Thesis**: Mechanical properties and stress-strain analysis of calcium-silicate-hydrates via molecular dynamics.
 
