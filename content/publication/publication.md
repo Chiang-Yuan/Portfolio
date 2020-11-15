@@ -7,9 +7,9 @@
 
 1. Yeh, K.-C., **Chiang, Y.**, Chang, S.-W. (2020) **[Full atomistic simulation of cross-linked gold nanoparticle assemblies.](https://doi.org/10.1007/s42493-020-00050-5)** Multiscale Science and Engineering. [\[pdf\]](https://drive.google.com/file/d/1hHsFhlkSPV7pNeV3OdVcLl5DCzJ2YG6m/view?usp=sharing)
 
-### Submitted
+1. **Chiang, Y.**, Tung, C.-C., Lin, X.-D., Chen, P.-Y., Chen, C.-S., Chang, S.-W. (2020) "Geometrically toughening mechanism of cellular composites inspired by Fibonacci lattice in *Liquidambar formosana*." Composite Structures. 
 
-1. **Chiang, Y.**, Tung, C.-C., Lin, X.-D., Chen, P.-Y., Chen, C.-S., Chang, S.-W. (2020) "Geometrically toughening mechanism of cellular composites inspired by Fibonacci lattice in *Liquidambar formosana*." ***Minor Revision***.
+### Submitted
 
 1. Tsai, Y.-Y.\*, **Chiang, Y.\***, Buford, J.-L., Tsai, M.-L., Chen, H.-C., and Chang, S.-W. (2020) "Mechanical and Crack Propagating Behavior of Sierpinski Carpet Composites."
 
