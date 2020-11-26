@@ -6,7 +6,7 @@
 
 ## Bio
 
-Yuan completed his B.S. in [Civil Engineering](http://www.ce.ntu.edu.tw/en/) at [National Taiwan University](https://www.ntu.edu.tw/english/index.html). He is now a M.S. student supervised by [Prof. Shu-Wei Chang](https://sites.google.com/site/ntuchangsw/).
+Yuan completed his BS in [Civil Engineering](http://www.ce.ntu.edu.tw/en/) at [National Taiwan University](https://www.ntu.edu.tw/english/index.html). He is now a MS student supervised by [Prof. Shu-Wei Chang](https://sites.google.com/site/ntuchangsw/).
 
 Yuan's research focuses on multiscale physics, mechanics and materials modeling, including atomistic simulation of calcium-silicate-hydrates (C-S-H), bio-inspired structural composites, copper-tin intermetallic compound (IMC), organic-inorganic system, and protein structure and functionality. He has worked for years on computational mechanics, molecular dynamics along with associated mathematical formulation, coding, and algorithm (see [GitHub Repo](https://github.com/Chiang-Yuan)). With an emphasis on computational modeling and high performance scientific computing, Yuan engages in many research projects regarding material modeling and simulations, including *ab-initio* calculation, full atomistic and coarse-grained molecular dynamics, and finite-element analysis. He also has several side projects using machine learning for structural health monitoring and composites design.
 
