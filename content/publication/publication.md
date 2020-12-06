@@ -13,9 +13,9 @@
 
 1. Tsai, Y.-Y.\*, **Chiang, Y.\***, Buford, J.-L., Tsai, M.-L., Chen, H.-C., and Chang, S.-W. (2020) "Mechanical and Crack Propagating Behavior of Sierpinski Carpet Composites."
 
-### In Preparation
-
 1. Chen, Y.-L., **Chiang, Y.**, Chiu, P.-H., Huang, I.-C., Chang, S.-W., Huang, C.-W. (2020) "Learning High Dimensional Phase Space Reconstruction with CNN for Structural Health Monitoring."
+
+### In Preparation
 
 1. **Chiang, Y.**, Chen, H.-C., and Chang, S.-W.. (2020) "A simple method for particle discretization from raster image and non-convex solid."
 
