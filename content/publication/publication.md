@@ -7,7 +7,7 @@
 
 1. Yeh, K.-C., **Chiang, Y.**, Chang, S.-W. (2020) **[Full atomistic simulation of cross-linked gold nanoparticle assemblies.](https://doi.org/10.1007/s42493-020-00050-5)** Multiscale Science and Engineering. [\[pdf\]](https://drive.google.com/file/d/1hHsFhlkSPV7pNeV3OdVcLl5DCzJ2YG6m/view?usp=sharing)
 
-1. **Chiang, Y.**, Tung, C.-C., Lin, X.-D., Chen, P.-Y., Chen, C.-S., Chang, S.-W. (2020) **[Geometrically toughening mechanism of cellular composites inspired by Fibonacci lattice in *Liquidambar formosana*.](https://authors.elsevier.com/c/1cBGP_5-wNaPVx)** Composite Structures. [\[pdf\]](https://drive.google.com/file/d/109W1WoT1B-ZT1c6_3hFtsjWx63_ImgVe/view?usp=sharing) [\[doi\]](https://doi.org/10.1016/j.compstruct.2020.113349)
+1. **Chiang, Y.**, Tung, C.-C., Lin, X.-D., Chen, P.-Y., Chen, C.-S., Chang, S.-W. (2020) **[Geometrically toughening mechanism of cellular composites inspired by Fibonacci lattice in *Liquidambar formosana*.](https://doi.org/10.1016/j.compstruct.2020.113349)** Composite Structures. [\[pdf\]](https://drive.google.com/file/d/109W1WoT1B-ZT1c6_3hFtsjWx63_ImgVe/view?usp=sharing) [\[doi\]](https://doi.org/10.1016/j.compstruct.2020.113349)
 
 ### Submitted
 
