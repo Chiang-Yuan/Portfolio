@@ -2,16 +2,17 @@
 # Publications
 
 ## Journal Papers
+\* co-first authors
 
 1. **Chiang, Y.**, Chang, S.-W. (2021) **[Bridging the gap between NMR measured mean silicate chain length and nano-scale silicate polymorphism of calcium silicate hydrates.](https://doi.org/10.1016/j.cemconres.2020.106268)** Cement and Concrete Research. (IF=8.328) [\[pdf\]](https://www.sciencedirect.com/science/article/pii/S0008884620315489/pdfft?md5=474617e33041e3eedec8eb110d8a0422&pid=1-s2.0-S0008884620315489-main.pdf)
+
+1. Tsai, Y.-Y.\*, **Chiang, Y.\***, Buford, J.-L., Tsai, M.-L., Chen, H.-C., and Chang, S.-W. (2021) "Mechanical and Crack Propagating Behavior of Sierpinski Carpet Composites." ACS Biomaterials Science & Engineering.
 
 1. Yeh, K.-C., **Chiang, Y.**, Chang, S.-W. (2020) **[Full atomistic simulation of cross-linked gold nanoparticle assemblies.](https://doi.org/10.1007/s42493-020-00050-5)** Multiscale Science and Engineering. [\[pdf\]](https://drive.google.com/file/d/1hHsFhlkSPV7pNeV3OdVcLl5DCzJ2YG6m/view?usp=sharing)
 
 1. **Chiang, Y.**, Tung, C.-C., Lin, X.-D., Chen, P.-Y., Chen, C.-S., Chang, S.-W. (2020) **[Geometrically toughening mechanism of cellular composites inspired by Fibonacci lattice in *Liquidambar formosana*.](https://doi.org/10.1016/j.compstruct.2020.113349)** Composite Structures. [\[pdf\]](https://drive.google.com/file/d/109W1WoT1B-ZT1c6_3hFtsjWx63_ImgVe/view?usp=sharing) [\[doi\]](https://doi.org/10.1016/j.compstruct.2020.113349)
 
 ### Submitted
-
-1. Tsai, Y.-Y.\*, **Chiang, Y.\***, Buford, J.-L., Tsai, M.-L., Chen, H.-C., and Chang, S.-W. (2020) "Mechanical and Crack Propagating Behavior of Sierpinski Carpet Composites."
 
 1. Chen, Y.-L., **Chiang, Y.**, Chiu, P.-H., Huang, I.-C., Chang, S.-W., Huang, C.-W. (2020) "Learning High Dimensional Phase Space Reconstruction with CNN for Structural Health Monitoring."
 
