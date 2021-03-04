@@ -4,7 +4,7 @@
 ## Journal Papers
 \* co-first authors
 
-1. Tsai, Y.-Y.\*, **Chiang, Y.\***, Buford, J.-L., Tsai, M.-L., Chen, H.-C., and Chang, S.-W. (2021) **[Mechanical and Crack Propagating Behavior of Sierpinski Carpet Composites.]()** ACS Biomaterials Science & Engineering. (Special issue)
+1. Tsai, Y.-Y.\*, **Chiang, Y.\***, Buford, J.-L., Tsai, M.-L., Chen, H.-C., and Chang, S.-W. (2021) **[Mechanical and Crack Propagating Behavior of Sierpinski Carpet Composites.]()** ACS Biomaterials Science & Engineering. (special issue) [\[pdf\]](https://drive.google.com/file/d/1TVAsNDCeeKOAS2B2S4IU4belYmEGG5q1/view?usp=sharing)
 
 1. **Chiang, Y.**, Chang, S.-W. (2021) **[Bridging the gap between NMR measured mean silicate chain length and nano-scale silicate polymorphism of calcium silicate hydrates.](https://doi.org/10.1016/j.cemconres.2020.106268)** Cement and Concrete Research. (IF=8.328) [\[pdf\]](https://www.sciencedirect.com/science/article/pii/S0008884620315489/pdfft?md5=474617e33041e3eedec8eb110d8a0422&pid=1-s2.0-S0008884620315489-main.pdf)
 
